@@ -101,7 +101,7 @@
 <rectangle x1="6.3" y1="1.8" x2="6.6" y2="2.5" layer="16" rot="R90"/>
 <rectangle x1="6.3" y1="1.4" x2="6.6" y2="2.1" layer="16" rot="R90"/>
 <rectangle x1="6.3" y1="1" x2="6.6" y2="1.7" layer="16" rot="R90"/>
-<rectangle x1="1.8" y1="1.1" x2="5.7" y2="5" layer="16"/>
+<rectangle x1="1.9" y1="1.1" x2="5.7" y2="4.9" layer="16"/>
 </plain>
 <libraries>
 </libraries>
