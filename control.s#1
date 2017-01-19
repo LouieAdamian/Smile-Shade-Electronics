@@ -299,49 +299,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-2.4892" y1="2.4892" x2="-2.4892" y2="-2.4892" width="0.1524" layer="51"/>
 <text x="1.4732" y="1.9304" size="0.635" layer="51" ratio="4" rot="SR0">*</text>
 </package>
-<package name="LEDDIMMER">
-<smd name="GND1" x="10.1" y="-12.3" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="SDO" x="9.6" y="-12.3" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="LDO" x="9.1" y="-12.3" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="PWMCK" x="8.6" y="-12.3" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="VCC" x="8.1" y="-12.3" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="LDI" x="7.6" y="-12.3" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="SDI" x="7.1" y="-12.3" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="GND2" x="6.6" y="-12.3" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="SCKI" x="6.1" y="-12.3" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="GND0" x="11.3" y="-11.6" dx="0.7" dy="0.4" layer="1"/>
-<smd name="LED15" x="11.3" y="-11.1" dx="0.7" dy="0.4" layer="1"/>
-<smd name="LED14" x="11.3" y="-10.6" dx="0.7" dy="0.4" layer="1"/>
-<smd name="LED13" x="11.3" y="-10.1" dx="0.7" dy="0.4" layer="1"/>
-<smd name="LED12" x="11.3" y="-9.6" dx="0.7" dy="0.4" layer="1"/>
-<smd name="LED11" x="11.3" y="-9.1" dx="0.7" dy="0.4" layer="1" rot="R180"/>
-<smd name="LED10" x="11.3" y="-8.6" dx="0.7" dy="0.4" layer="1" rot="R180"/>
-<smd name="LED09" x="11.3" y="-8.1" dx="0.7" dy="0.4" layer="1" rot="R180"/>
-<smd name="LED08" x="11.3" y="-7.6" dx="0.7" dy="0.4" layer="1" rot="R180"/>
-<smd name="SYNC" x="11.3" y="-7.1" dx="0.7" dy="0.4" layer="1" rot="R180"/>
-<smd name="RT" x="10.5" y="-6.4" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="SS" x="10" y="-6.4" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="FB" x="9.5" y="-6.4" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="ISN" x="9" y="-6.4" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="ISP" x="8.5" y="-6.4" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="CAP" x="8" y="-6.4" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="GATE" x="7.5" y="-6.4" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="VIN" x="7" y="-6.4" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="TSET" x="6.5" y="-6.4" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="EN/UVLO" x="5.3" y="-7.1" dx="0.7" dy="0.4" layer="1"/>
-<smd name="LED07" x="5.3" y="-7.6" dx="0.7" dy="0.4" layer="1"/>
-<smd name="LED06" x="5.3" y="-8.1" dx="0.7" dy="0.4" layer="1"/>
-<smd name="LED05" x="5.3" y="-8.6" dx="0.7" dy="0.4" layer="1"/>
-<smd name="LED04" x="5.3" y="-9.1" dx="0.7" dy="0.4" layer="1"/>
-<smd name="LED03" x="5.3" y="-9.6" dx="0.7" dy="0.4" layer="1"/>
-<smd name="LED02" x="5.3" y="-10.1" dx="0.7" dy="0.4" layer="1"/>
-<smd name="LED01" x="5.3" y="-10.6" dx="0.7" dy="0.4" layer="1"/>
-<smd name="LED00" x="5.3" y="-11.1" dx="0.7" dy="0.4" layer="1"/>
-<smd name="GND3" x="5.3" y="-11.6" dx="0.7" dy="0.4" layer="1"/>
-<smd name="GND" x="8.3" y="-9.4" dx="4.43" dy="4.43" layer="1"/>
-<smd name="ISET" x="6" y="-6.4" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="SCK0" x="10.6" y="-12.3" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-</package>
 </packages>
 <symbols>
 <symbol name="MC33926PNBR2">
@@ -383,53 +340,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="53.34" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
 <text x="25.7556" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
 <text x="25.1206" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
-</symbol>
-<symbol name="LEDDIMMER">
-<wire x1="-10.16" y1="-30.48" x2="-10.16" y2="25.4" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="25.4" x2="7.62" y2="25.4" width="0.254" layer="94"/>
-<wire x1="7.62" y1="25.4" x2="7.62" y2="-30.48" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-30.48" x2="-10.16" y2="-30.48" width="0.254" layer="94"/>
-<pin name="LED03" x="-15.24" y="15.24" length="middle"/>
-<pin name="LED04" x="-15.24" y="12.7" length="middle"/>
-<pin name="LED05" x="-15.24" y="10.16" length="middle"/>
-<pin name="LED06" x="-15.24" y="7.62" length="middle"/>
-<pin name="LED07" x="-15.24" y="5.08" length="middle"/>
-<pin name="LED08" x="-15.24" y="2.54" length="middle"/>
-<pin name="LED09" x="-15.24" y="0" length="middle"/>
-<pin name="LED10" x="-15.24" y="-2.54" length="middle"/>
-<pin name="LED11" x="-15.24" y="-5.08" length="middle"/>
-<pin name="LED12" x="-15.24" y="-7.62" length="middle"/>
-<pin name="LED13" x="-15.24" y="-10.16" length="middle"/>
-<pin name="LED14" x="-15.24" y="-12.7" length="middle"/>
-<pin name="LED15" x="-15.24" y="-15.24" length="middle"/>
-<pin name="EN/UVLO" x="-15.24" y="-17.78" length="middle"/>
-<pin name="SCKI" x="-15.24" y="-20.32" length="middle"/>
-<pin name="SDI" x="-15.24" y="-22.86" length="middle"/>
-<pin name="GND0" x="12.7" y="-25.4" length="middle" rot="R180"/>
-<pin name="GND3" x="12.7" y="-22.86" length="middle" rot="R180"/>
-<pin name="RT" x="12.7" y="-17.78" length="middle" rot="R180"/>
-<pin name="GND2" x="12.7" y="-20.32" length="middle" rot="R180"/>
-<pin name="SS" x="12.7" y="-15.24" length="middle" rot="R180"/>
-<pin name="FB" x="12.7" y="-12.7" length="middle" rot="R180"/>
-<pin name="ISN" x="12.7" y="-10.16" length="middle" rot="R180"/>
-<pin name="ISP" x="12.7" y="-7.62" length="middle" rot="R180"/>
-<pin name="CAP" x="12.7" y="-5.08" length="middle" rot="R180"/>
-<pin name="GATE" x="12.7" y="-2.54" length="middle" rot="R180"/>
-<pin name="VIN" x="12.7" y="0" length="middle" rot="R180"/>
-<pin name="TSET" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="ISET" x="12.7" y="5.08" length="middle" rot="R180"/>
-<pin name="SYNC" x="12.7" y="7.62" length="middle" rot="R180"/>
-<pin name="GND1" x="12.7" y="12.7" length="middle" rot="R180"/>
-<pin name="SCK0" x="12.7" y="10.16" length="middle" rot="R180"/>
-<pin name="LDI" x="-15.24" y="-25.4" length="middle"/>
-<pin name="VCC" x="-15.24" y="-27.94" length="middle"/>
-<pin name="SDO" x="12.7" y="15.24" length="middle" rot="R180"/>
-<pin name="LED02" x="-15.24" y="17.78" length="middle"/>
-<pin name="LED01" x="-15.24" y="20.32" length="middle"/>
-<pin name="LDO" x="12.7" y="17.78" length="middle" rot="R180"/>
-<pin name="PWMCK" x="12.7" y="20.32" length="middle" rot="R180"/>
-<pin name="GND" x="12.7" y="22.86" length="middle" rot="R180"/>
-<pin name="LED00" x="-15.24" y="22.86" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -483,61 +393,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="LEDDIMMER">
-<gates>
-<gate name="G$1" symbol="LEDDIMMER" x="-12.7" y="27.94"/>
-</gates>
-<devices>
-<device name="" package="LEDDIMMER">
-<connects>
-<connect gate="G$1" pin="CAP" pad="CAP"/>
-<connect gate="G$1" pin="EN/UVLO" pad="EN/UVLO"/>
-<connect gate="G$1" pin="FB" pad="FB"/>
-<connect gate="G$1" pin="GATE" pad="GATE"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="GND0" pad="GND0"/>
-<connect gate="G$1" pin="GND1" pad="GND1"/>
-<connect gate="G$1" pin="GND2" pad="GND2"/>
-<connect gate="G$1" pin="GND3" pad="GND3"/>
-<connect gate="G$1" pin="ISET" pad="ISET"/>
-<connect gate="G$1" pin="ISN" pad="ISN"/>
-<connect gate="G$1" pin="ISP" pad="ISP"/>
-<connect gate="G$1" pin="LDI" pad="LDI"/>
-<connect gate="G$1" pin="LDO" pad="LDO"/>
-<connect gate="G$1" pin="LED00" pad="LED00"/>
-<connect gate="G$1" pin="LED01" pad="LED01"/>
-<connect gate="G$1" pin="LED02" pad="LED02"/>
-<connect gate="G$1" pin="LED03" pad="LED03"/>
-<connect gate="G$1" pin="LED04" pad="LED04"/>
-<connect gate="G$1" pin="LED05" pad="LED05"/>
-<connect gate="G$1" pin="LED06" pad="LED06"/>
-<connect gate="G$1" pin="LED07" pad="LED07"/>
-<connect gate="G$1" pin="LED08" pad="LED08"/>
-<connect gate="G$1" pin="LED09" pad="LED09"/>
-<connect gate="G$1" pin="LED10" pad="LED10"/>
-<connect gate="G$1" pin="LED11" pad="LED11"/>
-<connect gate="G$1" pin="LED12" pad="LED12"/>
-<connect gate="G$1" pin="LED13" pad="LED13"/>
-<connect gate="G$1" pin="LED14" pad="LED14"/>
-<connect gate="G$1" pin="LED15" pad="LED15"/>
-<connect gate="G$1" pin="PWMCK" pad="PWMCK"/>
-<connect gate="G$1" pin="RT" pad="RT"/>
-<connect gate="G$1" pin="SCK0" pad="SCK0"/>
-<connect gate="G$1" pin="SCKI" pad="SCKI"/>
-<connect gate="G$1" pin="SDI" pad="SDI"/>
-<connect gate="G$1" pin="SDO" pad="SDO"/>
-<connect gate="G$1" pin="SS" pad="SS"/>
-<connect gate="G$1" pin="SYNC" pad="SYNC"/>
-<connect gate="G$1" pin="TSET" pad="TSET"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
-<connect gate="G$1" pin="VIN" pad="VIN"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -552,7 +407,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <parts>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U$1" library="LED Driver" deviceset="MC33926PNBR2" device=""/>
-<part name="U$2" library="LED Driver" deviceset="LEDDIMMER" device=""/>
 <part name="3.3V" library="SparkFun-Aesthetics" deviceset="VCC" device="" value="3.3v"/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 </parts>
@@ -563,7 +417,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instances>
 <instance part="GND1" gate="1" x="101.6" y="40.64"/>
 <instance part="U$1" gate="A" x="106.68" y="88.9"/>
-<instance part="U$2" gate="G$1" x="213.36" y="76.2"/>
 <instance part="3.3V" gate="G$1" x="96.52" y="40.64"/>
 <instance part="SUPPLY2" gate="G$1" x="73.66" y="40.64"/>
 </instances>
@@ -600,27 +453,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U$1" gate="A" pin="PGND_5"/>
 <wire x1="167.64" y1="63.5" x2="180.34" y2="63.5" width="0.1524" layer="91"/>
 <junction x="180.34" y="63.5"/>
-<junction x="180.34" y="43.18"/>
-<wire x1="180.34" y1="43.18" x2="228.6" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="43.18" x2="228.6" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="GND0"/>
-<wire x1="228.6" y1="50.8" x2="226.06" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="50.8" x2="228.6" y2="53.34" width="0.1524" layer="91"/>
-<junction x="228.6" y="50.8"/>
-<pinref part="U$2" gate="G$1" pin="GND3"/>
-<wire x1="228.6" y1="53.34" x2="226.06" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="53.34" x2="228.6" y2="55.88" width="0.1524" layer="91"/>
-<junction x="228.6" y="53.34"/>
-<pinref part="U$2" gate="G$1" pin="GND2"/>
-<wire x1="228.6" y1="55.88" x2="226.06" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="55.88" x2="228.6" y2="88.9" width="0.1524" layer="91"/>
-<junction x="228.6" y="55.88"/>
-<pinref part="U$2" gate="G$1" pin="GND"/>
-<wire x1="228.6" y1="88.9" x2="228.6" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="99.06" x2="226.06" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="GND1"/>
-<wire x1="228.6" y1="88.9" x2="226.06" y2="88.9" width="0.1524" layer="91"/>
-<junction x="228.6" y="88.9"/>
 <pinref part="U$1" gate="A" pin="NC_3"/>
 <wire x1="167.64" y1="50.8" x2="180.34" y2="50.8" width="0.1524" layer="91"/>
 <junction x="180.34" y="50.8"/>
@@ -717,9 +549,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="VCC"/>
-<wire x1="198.12" y1="48.26" x2="195.58" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="48.26" x2="195.58" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="3.3V" gate="G$1" pin="VCC"/>
 <wire x1="195.58" y1="35.56" x2="96.52" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="35.56" x2="96.52" y2="40.64" width="0.1524" layer="91"/>
@@ -728,9 +557,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
 <wire x1="73.66" y1="40.64" x2="73.66" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="38.1" x2="231.14" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="38.1" x2="231.14" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="VIN"/>
-<wire x1="231.14" y1="76.2" x2="226.06" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

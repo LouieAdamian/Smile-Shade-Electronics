@@ -253,49 +253,6 @@
 <wire x1="-2.4892" y1="2.4892" x2="-2.4892" y2="-2.4892" width="0.1524" layer="51"/>
 <text x="1.4732" y="1.9304" size="0.635" layer="51" ratio="4" rot="SR0">*</text>
 </package>
-<package name="LEDDIMMER">
-<smd name="GND1" x="10.1" y="-12.3" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="SDO" x="9.6" y="-12.3" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="LDO" x="9.1" y="-12.3" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="PWMCK" x="8.6" y="-12.3" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="VCC" x="8.1" y="-12.3" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="LDI" x="7.6" y="-12.3" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="SDI" x="7.1" y="-12.3" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="GND2" x="6.6" y="-12.3" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="SCKI" x="6.1" y="-12.3" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="GND0" x="11.3" y="-11.6" dx="0.7" dy="0.4" layer="1"/>
-<smd name="LED15" x="11.3" y="-11.1" dx="0.7" dy="0.4" layer="1"/>
-<smd name="LED14" x="11.3" y="-10.6" dx="0.7" dy="0.4" layer="1"/>
-<smd name="LED13" x="11.3" y="-10.1" dx="0.7" dy="0.4" layer="1"/>
-<smd name="LED12" x="11.3" y="-9.6" dx="0.7" dy="0.4" layer="1"/>
-<smd name="LED11" x="11.3" y="-9.1" dx="0.7" dy="0.4" layer="1" rot="R180"/>
-<smd name="LED10" x="11.3" y="-8.6" dx="0.7" dy="0.4" layer="1" rot="R180"/>
-<smd name="LED09" x="11.3" y="-8.1" dx="0.7" dy="0.4" layer="1" rot="R180"/>
-<smd name="LED08" x="11.3" y="-7.6" dx="0.7" dy="0.4" layer="1" rot="R180"/>
-<smd name="SYNC" x="11.3" y="-7.1" dx="0.7" dy="0.4" layer="1" rot="R180"/>
-<smd name="RT" x="10.5" y="-6.4" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="SS" x="10" y="-6.4" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="FB" x="9.5" y="-6.4" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="ISN" x="9" y="-6.4" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="ISP" x="8.5" y="-6.4" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="CAP" x="8" y="-6.4" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="GATE" x="7.5" y="-6.4" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="VIN" x="7" y="-6.4" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="TSET" x="6.5" y="-6.4" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="EN/UVLO" x="5.3" y="-7.1" dx="0.7" dy="0.4" layer="1"/>
-<smd name="LED07" x="5.3" y="-7.6" dx="0.7" dy="0.4" layer="1"/>
-<smd name="LED06" x="5.3" y="-8.1" dx="0.7" dy="0.4" layer="1"/>
-<smd name="LED05" x="5.3" y="-8.6" dx="0.7" dy="0.4" layer="1"/>
-<smd name="LED04" x="5.3" y="-9.1" dx="0.7" dy="0.4" layer="1"/>
-<smd name="LED03" x="5.3" y="-9.6" dx="0.7" dy="0.4" layer="1"/>
-<smd name="LED02" x="5.3" y="-10.1" dx="0.7" dy="0.4" layer="1"/>
-<smd name="LED01" x="5.3" y="-10.6" dx="0.7" dy="0.4" layer="1"/>
-<smd name="LED00" x="5.3" y="-11.1" dx="0.7" dy="0.4" layer="1"/>
-<smd name="GND3" x="5.3" y="-11.6" dx="0.7" dy="0.4" layer="1"/>
-<smd name="GND" x="8.3" y="-9.4" dx="4.43" dy="4.43" layer="1"/>
-<smd name="ISET" x="6" y="-6.4" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="SCK0" x="10.6" y="-12.3" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-</package>
 </packages>
 </library>
 </libraries>
@@ -492,7 +449,6 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="mc33926pnbr2" x="7.62" y="8.89" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Freescale" x="7.62" y="8.89" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$2" library="LED Driver" package="LEDDIMMER" value="LEDDIMMER" x="6.35" y="17.78"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -502,11 +458,6 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="19"/>
 <contactref element="U$1" pad="23"/>
 <contactref element="U$1" pad="22"/>
-<contactref element="U$2" pad="GND0"/>
-<contactref element="U$2" pad="GND3"/>
-<contactref element="U$2" pad="GND2"/>
-<contactref element="U$2" pad="GND"/>
-<contactref element="U$2" pad="GND1"/>
 <contactref element="U$1" pad="17"/>
 <contactref element="U$1" pad="18"/>
 <contactref element="U$1" pad="9"/>
@@ -520,11 +471,6 @@ design rules under a new name.</description>
 <wire x1="8.87" y1="6.4897" x2="8.37" y2="6.4897" width="0" layer="19" extent="1-1"/>
 <wire x1="9.37" y1="6.4897" x2="8.87" y2="6.4897" width="0" layer="19" extent="1-1"/>
 <wire x1="10.0203" y1="7.14" x2="9.37" y2="6.4897" width="0" layer="19" extent="1-1"/>
-<wire x1="14.65" y1="8.38" x2="8.37" y2="6.4897" width="0" layer="19" extent="1-1"/>
-<wire x1="12.95" y1="5.48" x2="14.65" y2="8.38" width="0" layer="19" extent="1-1"/>
-<wire x1="11.65" y1="6.18" x2="12.95" y2="5.48" width="0" layer="19" extent="1-1"/>
-<wire x1="16.45" y1="5.48" x2="14.65" y2="8.38" width="0" layer="19" extent="1-1"/>
-<wire x1="17.65" y1="6.18" x2="16.45" y2="5.48" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="U$1" pad="1"/>
@@ -561,11 +507,6 @@ design rules under a new name.</description>
 <wire x1="6.87" y1="11.2903" x2="7.87" y2="11.2903" width="0" layer="19" extent="1-1"/>
 <wire x1="5.2197" y1="9.64" x2="6.87" y2="11.2903" width="0" layer="19" extent="1-1"/>
 <wire x1="10.0203" y1="10.14" x2="7.87" y2="11.2903" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="VCC">
-<contactref element="U$2" pad="VCC"/>
-<contactref element="U$2" pad="VIN"/>
-<wire x1="14.45" y1="5.48" x2="13.35" y2="11.38" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
