@@ -750,28 +750,70 @@ http://www.st.com&lt;p&gt;
 <wire x1="25.4" y1="38.1" x2="30.48" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="M1A" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="1Y"/>
-<wire x1="-5.08" y1="27.94" x2="-17.78" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="27.94" x2="-10.16" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="M1B" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="2Y"/>
-<wire x1="-5.08" y1="12.7" x2="-17.78" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="12.7" x2="-10.16" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="SPEED2" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="3-4EN"/>
-<wire x1="25.4" y1="2.54" x2="27.94" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="2.54" x2="30.48" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="DIR2B" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="3A"/>
 <wire x1="25.4" y1="7.62" x2="27.94" y2="7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="24V" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="VCC2"/>
+<wire x1="-5.08" y1="2.54" x2="-10.16" y2="2.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="M2A" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="4Y"/>
+<wire x1="25.4" y1="27.94" x2="33.02" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="M2B" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="3Y"/>
+<wire x1="25.4" y1="12.7" x2="33.02" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SPEED1" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="1-2EN"/>
+<wire x1="-5.08" y1="38.1" x2="-10.16" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DIR1A" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="1A"/>
+<wire x1="-5.08" y1="33.02" x2="-10.16" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DIR2A" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="4A"/>
+<wire x1="25.4" y1="33.02" x2="30.48" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DIR1B" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="2A"/>
+<wire x1="-5.08" y1="7.62" x2="-10.16" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
