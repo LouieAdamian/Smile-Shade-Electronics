@@ -1807,6 +1807,11 @@ design rules under a new name.</description>
 <wire x1="124.3584" y1="2.0574" x2="123.2154" y2="2.0574" width="0.254" layer="1"/>
 <wire x1="123.2154" y1="2.0574" x2="123.19" y2="2.14" width="0.254" layer="1"/>
 <wire x1="124.3584" y1="2.0574" x2="124.46" y2="2.14" width="0.254" layer="1"/>
+<<<<<<< HEAD
+=======
+<contactref element="U$39" pad="P$9"/>
+<wire x1="125.73" y1="2.14" x2="189" y2="17" width="0" layer="19" extent="1-1"/>
+>>>>>>> parent of 2295623... Revert "new layout"
 </signal>
 <signal name="N$19">
 <contactref element="U$21" pad="P$4"/>
@@ -1840,6 +1845,11 @@ design rules under a new name.</description>
 <wire x1="116.9162" y1="2.0574" x2="118.0592" y2="2.0574" width="0.254" layer="1"/>
 <wire x1="118.0592" y1="2.0574" x2="118.11" y2="2.14" width="0.254" layer="1"/>
 <wire x1="116.9162" y1="2.0574" x2="116.84" y2="2.14" width="0.254" layer="1"/>
+<<<<<<< HEAD
+=======
+<contactref element="U$39" pad="P$10"/>
+<wire x1="118.11" y1="2.14" x2="189" y2="17.5" width="0" layer="19" extent="1-1"/>
+>>>>>>> parent of 2295623... Revert "new layout"
 </signal>
 <signal name="N$21">
 <contactref element="U$23" pad="P$4"/>
