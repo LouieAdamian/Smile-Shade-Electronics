@@ -1369,6 +1369,11 @@
 <part name="U$43" library="LED Driver" deviceset="2N7002P" device=""/>
 <part name="R18" library="LED Driver" deviceset="RC0603FR-0710RL" device=""/>
 <part name="U$39" library="Smile_Shade" deviceset="SFV18R-3STBE1HLF" device=""/>
+<part name="GND2" library="supply1" deviceset="GND" device=""/>
+<part name="GND3" library="supply1" deviceset="GND" device=""/>
+<part name="GND4" library="supply1" deviceset="GND" device=""/>
+<part name="GND5" library="supply1" deviceset="GND" device=""/>
+<part name="GND6" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1674,6 +1679,8 @@
 </segment>
 <segment>
 <wire x1="-38.1" y1="104.14" x2="-35.56" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="U$39" gate="G$1" pin="P$17"/>
+<junction x="-38.1" y="104.14"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -1712,6 +1719,8 @@
 <segment>
 <wire x1="-38.1" y1="101.6" x2="-35.56" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="101.6" x2="-35.56" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="U$39" gate="G$1" pin="P$16"/>
+<junction x="-38.1" y="101.6"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -1749,6 +1758,8 @@
 </segment>
 <segment>
 <wire x1="-38.1" y1="99.06" x2="-35.56" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="U$39" gate="G$1" pin="P$15"/>
+<junction x="-38.1" y="99.06"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -1791,7 +1802,8 @@
 <wire x1="22.86" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-38.1" y1="96.52" x2="-35.56" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="U$39" gate="G$1" pin="P$12"/>
+<wire x1="-38.1" y1="91.44" x2="-35.56" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -1828,8 +1840,8 @@
 <wire x1="73.66" y1="66.04" x2="76.2" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$39" gate="G$1" pin="P$12"/>
-<wire x1="-38.1" y1="91.44" x2="-35.56" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="U$39" gate="G$1" pin="P$13"/>
+<wire x1="-38.1" y1="93.98" x2="-35.56" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -1866,8 +1878,9 @@
 <wire x1="121.92" y1="66.04" x2="124.46" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$39" gate="G$1" pin="P$13"/>
-<wire x1="-38.1" y1="93.98" x2="-35.56" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="96.52" x2="-35.56" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="U$39" gate="G$1" pin="P$14"/>
+<junction x="-38.1" y="96.52"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -2414,6 +2427,11 @@
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="33.02" y="38.1"/>
+<instance part="GND2" gate="1" x="-20.32" y="55.88"/>
+<instance part="GND3" gate="1" x="2.54" y="93.98" rot="R180"/>
+<instance part="GND4" gate="1" x="48.26" y="91.44" rot="R180"/>
+<instance part="GND5" gate="1" x="63.5" y="91.44" rot="R180"/>
+<instance part="GND6" gate="1" x="76.2" y="78.74" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -2422,14 +2440,17 @@
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND@2"/>
 <wire x1="48.26" y1="83.82" x2="48.26" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND@3"/>
 <wire x1="63.5" y1="83.82" x2="63.5" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND@4"/>
 <wire x1="68.58" y1="78.74" x2="73.66" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND@5"/>
@@ -2446,6 +2467,12 @@
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND@0"/>
 <wire x1="2.54" y1="83.82" x2="2.54" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PWRON"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="-2.54" y1="58.42" x2="-20.32" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -2743,6 +2770,16 @@
 <wire x1="233.68" y1="73.66" x2="238.76" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
 </nets>
 </sheet>
 </sheets>

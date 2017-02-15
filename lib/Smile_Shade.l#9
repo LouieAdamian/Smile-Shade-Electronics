@@ -2117,8 +2117,8 @@
 <wire x1="7.62" y1="-5.08" x2="7.62" y2="2.54" width="0.254" layer="94"/>
 <wire x1="7.62" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<pin name="P$1" x="-5.08" y="0" length="middle"/>
-<pin name="P$2" x="-5.08" y="-2.54" length="middle"/>
+<pin name="M1" x="-5.08" y="0" length="middle"/>
+<pin name="M2" x="-5.08" y="-2.54" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2898,7 +2898,7 @@
 <devices>
 <device name="" package="MOTORCONNECTOR">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="M1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
