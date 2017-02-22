@@ -1847,6 +1847,7 @@ USI</description>
 <part name="U$32" library="Smile_Shade" deviceset="2N7002P" device=""/>
 <part name="U$34" library="Smile_Shade" deviceset="2N7002P" device=""/>
 <part name="U$41" library="Smile_Shade" deviceset="2N7002P" device=""/>
+<part name="SL2" library="con-amp-quick" deviceset="M06" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3007,6 +3008,30 @@ USI</description>
 <wire x1="-2.54" y1="17.78" x2="-7.62" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="ENDSTOP1" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="CSID1"/>
+<wire x1="68.58" y1="33.02" x2="73.66" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ENDSTOP2" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="CSID2"/>
+<wire x1="68.58" y1="27.94" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ENDSTOP3" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="CSID3"/>
+<wire x1="68.58" y1="22.86" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ENDSTOP0" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="CSID0"/>
+<wire x1="68.58" y1="38.1" x2="73.66" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -3021,6 +3046,7 @@ USI</description>
 <instance part="C2" gate="A" x="104.14" y="68.58"/>
 <instance part="U$37" gate="G$1" x="213.36" y="43.18"/>
 <instance part="SL1" gate="G$1" x="226.06" y="22.86" rot="R180"/>
+<instance part="SL2" gate="G$1" x="259.08" y="30.48" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -3108,6 +3134,10 @@ USI</description>
 <pinref part="SL1" gate="G$1" pin="4"/>
 <wire x1="220.98" y1="20.32" x2="218.44" y2="20.32" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SL2" gate="G$1" pin="2"/>
+<wire x1="251.46" y1="33.02" x2="254" y2="33.02" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="5V" class="0">
 <segment>
@@ -3162,6 +3192,10 @@ USI</description>
 <segment>
 <pinref part="C2" gate="A" pin="11"/>
 <wire x1="104.14" y1="68.58" x2="99.06" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SL2" gate="G$1" pin="1"/>
+<wire x1="254" y1="35.56" x2="251.46" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ZN1" class="0">
@@ -3292,6 +3326,30 @@ USI</description>
 <segment>
 <pinref part="SL1" gate="G$1" pin="6"/>
 <wire x1="220.98" y1="15.24" x2="218.44" y2="15.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ENDSTOP1" class="0">
+<segment>
+<pinref part="SL2" gate="G$1" pin="4"/>
+<wire x1="254" y1="27.94" x2="251.46" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ENDSTOP2" class="0">
+<segment>
+<pinref part="SL2" gate="G$1" pin="5"/>
+<wire x1="254" y1="25.4" x2="251.46" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ENDSTOP3" class="0">
+<segment>
+<pinref part="SL2" gate="G$1" pin="6"/>
+<wire x1="254" y1="22.86" x2="251.46" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ENDSTOP0" class="0">
+<segment>
+<pinref part="SL2" gate="G$1" pin="3"/>
+<wire x1="254" y1="30.48" x2="251.46" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

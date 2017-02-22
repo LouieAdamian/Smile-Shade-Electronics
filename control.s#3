@@ -3275,6 +3275,12 @@ USI</description>
 <wire x1="68.58" y1="38.1" x2="73.66" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="SDA" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="TWI1-SDA"/>
+<wire x1="-2.54" y1="27.94" x2="-7.62" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>

@@ -3570,6 +3570,10 @@ USI</description>
 <pinref part="U$2" gate="A" pin="VCC1"/>
 <wire x1="205.74" y1="35.56" x2="208.28" y2="35.56" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SL2" gate="G$1" pin="7"/>
+<wire x1="254" y1="20.32" x2="251.46" y2="20.32" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="ENC2" class="0">
 <segment>
@@ -3593,6 +3597,12 @@ USI</description>
 <segment>
 <wire x1="254" y1="30.48" x2="251.46" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="SL2" gate="G$1" pin="3"/>
+</segment>
+</net>
+<net name="ENDSTOP4" class="0">
+<segment>
+<pinref part="SL2" gate="G$1" pin="6"/>
+<wire x1="254" y1="22.86" x2="251.46" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
