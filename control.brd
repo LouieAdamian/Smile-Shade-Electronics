@@ -175,10 +175,12 @@
 <dimension x1="-2.6162" y1="-12.7" x2="-6.0198" y2="-39.3446" x3="4.4704" y3="-26.0223" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
 <hole x="-24.765" y="-67.31" drill="2.2"/>
 <hole x="-13.335" y="-67.31" drill="2.2"/>
-<text x="56" y="7" size="1.778" layer="25" font="vector">Smile Shade control PCB v1.0</text>
-<text x="56" y="4" size="1.778" layer="25" font="vector">Louis Adamian Patent Pending</text>
+<text x="55.5" y="7" size="1.778" layer="25" font="vector">Smile Shade control PCB v1.0</text>
+<text x="55.5" y="4.5" size="1.778" layer="25" font="vector">Louis Adamian Patent Pending</text>
 <text x="99" y="7" size="1.778" layer="25">©</text>
 <text x="102" y="7" size="1.778" layer="25" font="vector">2017</text>
+<text x="132" y="4" size="1.778" layer="16" rot="MR0">ヽ༼ຈل͜ຈ༽ﾉ</text>
+<text x="130.5" y="4" size="1.778" layer="16" rot="MR0">ヽ༼ຈل͜ຈ༽ﾉ</text>
 </plain>
 <libraries>
 <library name="CHIP_Pro-Footprint">

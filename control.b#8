@@ -1330,15 +1330,15 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="U$1" library="CHIP_Pro-Footprint" package="CHIP_PRO" value="CHIP_PRO" x="30.5" y="19.5" rot="R90"/>
-<element name="U$2" library="LED Driver" package="NE16" value="L293DNE" x="101.85" y="35.02" rot="R90">
-<attribute name="DESCRIPTION" value="Quadruple HalfH Drivers L293DNE" x="101.85" y="35.02" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="L293DNE" x="101.85" y="35.02" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="101.85" y="35.02" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SECTION" value="Unknown" x="101.85" y="35.02" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RSPARTNUMBER" value="526868" x="101.85" y="35.02" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VENDOR" value="Texas Instruments" x="101.85" y="35.02" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="101.85" y="35.02" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="FAMILY" value="Unknown" x="101.85" y="35.02" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="U$2" library="LED Driver" package="NE16" value="L293DNE" x="130.85" y="35.52" rot="R90">
+<attribute name="DESCRIPTION" value="Quadruple HalfH Drivers L293DNE" x="130.85" y="35.52" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="L293DNE" x="130.85" y="35.52" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="130.85" y="35.52" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SECTION" value="Unknown" x="130.85" y="35.52" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RSPARTNUMBER" value="526868" x="130.85" y="35.52" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Texas Instruments" x="130.85" y="35.52" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="130.85" y="35.52" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FAMILY" value="Unknown" x="130.85" y="35.52" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U$17" library="LED Driver" package="8SOIC" value="NUD4011DR2G" x="149.5" y="18"/>
 <element name="U$3" library="LED Driver" package="8SOIC" value="NUD4011DR2G" x="144" y="18"/>
@@ -1356,16 +1356,16 @@ design rules under a new name.</description>
 <element name="U$29" library="LED Driver" package="8SOIC" value="NUD4011DR2G" x="78" y="18"/>
 <element name="U$31" library="LED Driver" package="8SOIC" value="NUD4011DR2G" x="72.5" y="18"/>
 <element name="U$33" library="LED Driver" package="8SOIC" value="NUD4011DR2G" x="67" y="18"/>
-<element name="C1" library="Smile_Shade" package="U1-M" value="UVR0J102MPD1TA" x="107.5" y="31.5" rot="MR0">
-<attribute name="MANUFACTURER_PART_NUMBER" value="UVR0J102MPD1TA" x="107.5" y="31.5" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VENDOR" value="Vendor" x="107.5" y="31.5" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="107.5" y="31.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="C1" library="Smile_Shade" package="U1-M" value="UVR0J102MPD1TA" x="103.5" y="31" rot="MR0">
+<attribute name="MANUFACTURER_PART_NUMBER" value="UVR0J102MPD1TA" x="103.5" y="31" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VENDOR" value="Vendor" x="103.5" y="31" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="103.5" y="31" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="U$36" library="Smile_Shade" package="IND_BOURNS_SRN8040" value="SRN8040-101M" x="59.5" y="33" rot="R90"/>
-<element name="C2" library="Smile_Shade" package="E-E3" value="ESK107M025AE3EA" x="116" y="30.5" rot="R180">
-<attribute name="MANUFACTURER_PART_NUMBER" value="ESK107M025AE3EA" x="116" y="30.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Vendor" x="116" y="30.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="116" y="30.5" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="U$36" library="Smile_Shade" package="IND_BOURNS_SRN8040" value="SRN8040-101M" x="77.5" y="31" rot="R90"/>
+<element name="C2" library="Smile_Shade" package="E-E3" value="ESK107M025AE3EA" x="135" y="28.5" rot="R180">
+<attribute name="MANUFACTURER_PART_NUMBER" value="ESK107M025AE3EA" x="135" y="28.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Vendor" x="135" y="28.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="135" y="28.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U$37" library="Smile_Shade" package="SOT361-1" value="PCA9685PW/Q900" x="109.5" y="3"/>
 <element name="U$40" library="LED Driver" package="8SOIC" value="NUD4011DR2G" x="56" y="18"/>
@@ -1403,9 +1403,9 @@ design rules under a new name.</description>
 <attribute name="MPN" value="" x="143.5" y="3.5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="143.5" y="3.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$43" library="Smile_Shade" package="TS5B" value="LM2576HVSX-5.0/NOPB" x="75" y="31" rot="R270">
-<attribute name="VENDOR" value="National Semiconductor" x="75" y="31" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="LM2576HVSX5.0NOPB" x="75" y="31" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="U$43" library="Smile_Shade" package="TS5B" value="LM2576HVSX-5.0/NOPB" x="94.5" y="31.5" rot="R270">
+<attribute name="VENDOR" value="National Semiconductor" x="94.5" y="31.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LM2576HVSX5.0NOPB" x="94.5" y="31.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R19" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="145" y="16" rot="R180">
 <attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="145" y="16" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1875,11 +1875,11 @@ design rules under a new name.</description>
 <attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="62.5" y="16" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PACKAGECASE" value="0603 1608 Metric" x="62.5" y="16" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="SL2" library="con-amp-quick" package="02P" value="" x="-17.5" y="-76">
-<attribute name="MPN" value="" x="-17.5" y="-76" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="-17.5" y="-76" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="-17.5" y="-76" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="-17.5" y="-76" size="1.778" layer="27" display="off"/>
+<element name="SL2" library="con-amp-quick" package="02P" value="" x="57" y="27.5">
+<attribute name="MPN" value="" x="57" y="27.5" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="57" y="27.5" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="57" y="27.5" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="57" y="27.5" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
@@ -1955,14 +1955,14 @@ design rules under a new name.</description>
 <wire x1="53" y1="7.5" x2="58" y2="11.5" width="0" layer="19" extent="1-1"/>
 <wire x1="135.88" y1="3.5" x2="135" y2="11.5" width="0" layer="19" extent="1-1"/>
 <wire x1="117.95" y1="3" x2="118.5" y2="11.5" width="0" layer="19" extent="1-1"/>
-<wire x1="91.69" y1="27.4" x2="91" y2="11.5" width="0" layer="19" extent="1-1"/>
-<wire x1="94.23" y1="27.4" x2="91.69" y2="27.4" width="0" layer="19" extent="1-1"/>
-<wire x1="94.23" y1="35.02" x2="94.23" y2="27.4" width="0" layer="19" extent="1-1"/>
-<wire x1="91.69" y1="35.02" x2="94.23" y2="35.02" width="0" layer="19" extent="1-1"/>
-<wire x1="66.7196" y1="27.5964" x2="69" y2="11.5" width="0" layer="19" extent="1-1"/>
-<wire x1="66.7196" y1="31" x2="66.7196" y2="27.5964" width="0" layer="19" extent="1-1"/>
-<wire x1="75" y1="31" x2="66.7196" y2="31" width="0" layer="19" extent="1-1"/>
-<wire x1="111.0052" y1="31.5" x2="94.23" y2="35.02" width="0" layer="19" extent="1-1"/>
+<wire x1="123.23" y1="27.9" x2="124" y2="11.5" width="0" layer="19" extent="1-1"/>
+<wire x1="120.69" y1="27.9" x2="123.23" y2="27.9" width="0" layer="19" extent="1-1"/>
+<wire x1="123.23" y1="35.52" x2="123.23" y2="27.9" width="0" layer="19" extent="1-1"/>
+<wire x1="120.69" y1="35.52" x2="123.23" y2="35.52" width="0" layer="19" extent="1-1"/>
+<wire x1="107.0052" y1="31" x2="120.69" y2="27.9" width="0" layer="19" extent="1-1"/>
+<wire x1="94.5" y1="31.5" x2="107.0052" y2="31" width="0" layer="19" extent="1-1"/>
+<wire x1="86.2196" y1="31.5" x2="94.5" y2="31.5" width="0" layer="19" extent="1-1"/>
+<wire x1="86.2196" y1="28.0964" x2="86.2196" y2="31.5" width="0" layer="19" extent="1-1"/>
 <wire x1="24.15" y1="4.5" x2="53" y2="7.5" width="0" layer="19" extent="1-1"/>
 <wire x1="21.61" y1="4.5" x2="24.15" y2="4.5" width="0" layer="19" extent="1-1"/>
 <wire x1="11.45" y1="4.5" x2="21.61" y2="4.5" width="0" layer="19" extent="1-1"/>
@@ -1983,10 +1983,10 @@ design rules under a new name.</description>
 <contactref element="U$37" pad="P$28"/>
 <contactref element="U$2" pad="8"/>
 <contactref element="U$43" pad="4"/>
-<wire x1="101.85" y1="27.4" x2="107.5" y2="31.5" width="0" layer="19" extent="1-1"/>
-<wire x1="117.95" y1="8.65" x2="101.85" y2="27.4" width="0" layer="19" extent="1-1"/>
-<wire x1="66.7196" y1="29.2982" x2="101.85" y2="27.4" width="0" layer="19" extent="1-1"/>
-<wire x1="59.5" y1="35.8575" x2="66.7196" y2="29.2982" width="0" layer="19" extent="1-1"/>
+<wire x1="117.95" y1="8.65" x2="130.85" y2="27.9" width="0" layer="19" extent="1-1"/>
+<wire x1="103.5" y1="31" x2="117.95" y2="8.65" width="0" layer="19" extent="1-1"/>
+<wire x1="86.2196" y1="29.7982" x2="103.5" y2="31" width="0" layer="19" extent="1-1"/>
+<wire x1="77.5" y1="33.8575" x2="86.2196" y2="29.7982" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIR1A">
 <contactref element="U$2" pad="7"/>
@@ -2077,8 +2077,8 @@ design rules under a new name.</description>
 <wire x1="67" y1="18" x2="67.2253" y2="16" width="0" layer="19" extent="1-1"/>
 <wire x1="61.5" y1="18" x2="67" y2="18" width="0" layer="19" extent="1-1"/>
 <wire x1="61.7253" y1="16" x2="61.5" y2="18" width="0" layer="19" extent="1-1"/>
+<wire x1="137.9972" y1="28.5" x2="138.5" y2="18" width="0" layer="19" extent="1-1"/>
 <wire x1="133.34" y1="3.5" x2="133.2253" y2="16" width="0" layer="19" extent="1-1"/>
-<wire x1="118.9972" y1="30.5" x2="116.5" y2="18" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$16">
 <contactref element="U$17" pad="P$3"/>
@@ -2403,32 +2403,32 @@ design rules under a new name.</description>
 <signal name="M1B">
 <contactref element="U$2" pad="6"/>
 <contactref element="SL3" pad="9"/>
-<wire x1="96.77" y1="27.4" x2="153.66" y2="3.5" width="0" layer="19" extent="1-1"/>
+<wire x1="125.77" y1="27.9" x2="153.66" y2="3.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="M2A">
 <contactref element="U$2" pad="14"/>
 <contactref element="SL1" pad="1"/>
-<wire x1="3" y1="28.35" x2="89.15" y2="35.02" width="0" layer="19" extent="1-1"/>
+<wire x1="3" y1="28.35" x2="118.15" y2="35.52" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$33">
 <contactref element="U$36" pad="1"/>
 <contactref element="U$43" pad="2"/>
-<wire x1="59.5" y1="30.1425" x2="66.7196" y2="32.7018" width="0" layer="19" extent="1-1"/>
+<wire x1="77.5" y1="28.1425" x2="86.2196" y2="33.2018" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$34">
 <contactref element="C2" pad="2"/>
 <contactref element="U$43" pad="1"/>
-<wire x1="66.7196" y1="34.4036" x2="116" y2="30.5" width="0" layer="19" extent="1-1"/>
+<wire x1="86.2196" y1="34.9036" x2="135" y2="28.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="M0">
 <contactref element="U$1" pad="PWM0"/>
 <contactref element="U$2" pad="1"/>
-<wire x1="31.77" y1="4.5" x2="84.07" y2="27.4" width="0" layer="19" extent="1-1"/>
+<wire x1="31.77" y1="4.5" x2="113.07" y2="27.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="M1">
 <contactref element="U$1" pad="PWM1"/>
 <contactref element="U$2" pad="9"/>
-<wire x1="34.31" y1="4.5" x2="101.85" y2="35.02" width="0" layer="19" extent="1-1"/>
+<wire x1="34.31" y1="4.5" x2="130.85" y2="35.52" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ZN0">
 <contactref element="U$37" pad="P$13"/>
@@ -2525,12 +2525,12 @@ design rules under a new name.</description>
 <signal name="M2B">
 <contactref element="U$2" pad="11"/>
 <contactref element="SL1" pad="2"/>
-<wire x1="3" y1="25.81" x2="96.77" y2="35.02" width="0" layer="19" extent="1-1"/>
+<wire x1="3" y1="25.81" x2="125.77" y2="35.52" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="M1A">
 <contactref element="U$2" pad="3"/>
 <contactref element="SL3" pad="8"/>
-<wire x1="89.15" y1="27.4" x2="151.12" y2="3.5" width="0" layer="19" extent="1-1"/>
+<wire x1="118.15" y1="27.9" x2="151.12" y2="3.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LEDSTR_17">
 <contactref element="U$40" pad="P$8"/>
@@ -2601,8 +2601,8 @@ design rules under a new name.</description>
 <contactref element="SL1" pad="3"/>
 <contactref element="U$2" pad="16"/>
 <contactref element="SL3" pad="7"/>
-<wire x1="84.07" y1="35.02" x2="148.58" y2="3.5" width="0" layer="19" extent="1-1"/>
-<wire x1="13.99" y1="4.5" x2="84.07" y2="35.02" width="0" layer="19" extent="1-1"/>
+<wire x1="113.07" y1="35.52" x2="148.58" y2="3.5" width="0" layer="19" extent="1-1"/>
+<wire x1="13.99" y1="4.5" x2="113.07" y2="35.52" width="0" layer="19" extent="1-1"/>
 <wire x1="3" y1="23.27" x2="13.99" y2="4.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ENCOUT">
@@ -2658,44 +2658,49 @@ design rules under a new name.</description>
 </polygon>
 </signal>
 <signal name="N$39">
-<contactref element="U$1" pad="CSID4"/>
+<contactref element="U$1" pad="I2S+SPDIF"/>
 <contactref element="SL2" pad="1"/>
-<wire x1="41.93" y1="34.5" x2="-18.77" y2="-76" width="0" layer="19" extent="1-1"/>
+<wire x1="53" y1="23.5" x2="55.73" y2="27.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$40">
-<contactref element="U$1" pad="CSID5"/>
+<contactref element="U$1" pad="I2S-DO"/>
 <contactref element="SL2" pad="2"/>
-<wire x1="44.47" y1="34.5" x2="-16.23" y2="-76" width="0" layer="19" extent="1-1"/>
+<wire x1="53" y1="21.5" x2="58.27" y2="27.5" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>
+<approved hash="3,1,be9e9ae19ae0be9f"/>
+<approved hash="3,1,2f9c09e309e22f9d"/>
+<approved hash="3,1,a093b8ecb8efa090"/>
+<approved hash="3,1,519137ee37e95196"/>
+<approved hash="3,1,c294a6eba6eac295"/>
+<approved hash="3,1,73aa55d555d473ab"/>
+<approved hash="3,1,e4a9c4d6c4d1e4ae"/>
+<approved hash="3,1,95af73d073d395ac"/>
+<approved hash="3,1,06a2e2dde2dd06a2"/>
+<approved hash="3,1,b7a091df91deb7a1"/>
+<approved hash="3,1,28a600d900d828a7"/>
+<approved hash="3,1,d9a5bfdabfc5d9ba"/>
+<approved hash="3,1,4abb2ec42ec74ab8"/>
+<approved hash="3,1,fbbeddc1ddc0fbbf"/>
+<approved hash="3,1,6cbc4cc34cc26cbd"/>
+<approved hash="3,1,1db3fbccfbcc1db3"/>
+<approved hash="3,1,8eb16ace6ac98eb6"/>
+<approved hash="3,1,3fb719c819cb3fb4"/>
+<approved hash="3,1,02720277b796b793"/>
+<approved hash="3,1,00e300e6b405b400"/>
+<approved hash="3,1,06900695b2b4b2b1"/>
+<approved hash="3,1,050105048f2b8f2e"/>
 <approved hash="4,1,583d3749ca2542dc"/>
+<approved hash="4,1,b13d32e126ad542c"/>
 <approved hash="4,1,4c3d388dd079572c"/>
-<approved hash="4,1,5f7d9181688d472c"/>
-<approved hash="4,1,49fd892d6359532c"/>
-<approved hash="4,1,0851523f7b5906ad"/>
-<approved hash="4,1,4d3d2cf5c5d1577c"/>
+<approved hash="4,1,3c7d84e91e05271c"/>
 <approved hash="4,1,7ec9c1b815a58d72"/>
 <approved hash="4,1,719daac57dc1653c"/>
-<approved hash="4,1,b13d32e126ad542c"/>
-<approved hash="4,1,3c7d84e91e05271c"/>
-<approved hash="4,1,c52cd95674b3a638"/>
-<approved hash="4,1,5c594057b4bab64d"/>
-<approved hash="4,1,f755a75694a18641"/>
-<approved hash="4,1,0e420e699486b656"/>
-<approved hash="4,1,a97e75568cb6a66a"/>
-<approved hash="4,1,c06adc567cb7b67e"/>
-<approved hash="4,1,5b6743578c46b673"/>
-<approved hash="4,1,f293aa569ca18687"/>
-<approved hash="4,1,0d80115594bab694"/>
-<approved hash="4,1,a4bc7856b4b2a6a8"/>
-<approved hash="4,1,3fa8df5674bbb6bd"/>
-<approved hash="4,1,56a5465794c2c6b1"/>
-<approved hash="4,1,f1d1ad569cb9b6c5"/>
-<approved hash="4,1,08ce14518cb6a6da"/>
-<approved hash="4,1,a3fa7b56bcb6a6ee"/>
-<approved hash="4,1,3af6e2578ca7b6e3"/>
-<approved hash="4,1,1c1dc2dca3d1e8b7"/>
+<approved hash="4,1,0851523f7b5906ad"/>
+<approved hash="4,1,4d3d2cf5c5d1577c"/>
+<approved hash="4,1,49fd892d6359532c"/>
+<approved hash="4,1,5f7d9181688d472c"/>
 <approved hash="4,1,7854266f4573d5b9"/>
 <approved hash="4,1,e121bf66557215cc"/>
 <approved hash="4,1,062d147d657335c0"/>
@@ -2713,19 +2718,36 @@ design rules under a new name.</description>
 <approved hash="4,1,da82406a45731d6f"/>
 <approved hash="4,1,438fd97b55722d63"/>
 <approved hash="4,1,90d4193685419938"/>
-<approved hash="4,1,de974f2e99a7ef93"/>
-<approved hash="4,1,c8a79296532ff9e3"/>
+<approved hash="4,1,c52cd95674b3a638"/>
+<approved hash="4,1,5c594057b4bab64d"/>
+<approved hash="4,1,f755a75694a18641"/>
+<approved hash="4,1,0e420e699486b656"/>
+<approved hash="4,1,a97e75568cb6a66a"/>
+<approved hash="4,1,c06adc567cb7b67e"/>
+<approved hash="4,1,5b6743578c46b673"/>
+<approved hash="4,1,f293aa569ca18687"/>
+<approved hash="4,1,0d80115594bab694"/>
+<approved hash="4,1,a4bc7856b4b2a6a8"/>
+<approved hash="4,1,3fa8df5674bbb6bd"/>
+<approved hash="4,1,56a5465794c2c6b1"/>
+<approved hash="4,1,f1d1ad569cb9b6c5"/>
+<approved hash="4,1,08ce14518cb6a6da"/>
+<approved hash="4,1,a3fa7b56bcb6a6ee"/>
+<approved hash="4,1,3af6e2578ca7b6e3"/>
+<approved hash="4,1,1c1dc2dca3d1e8b7"/>
+<approved hash="4,1,cb1f431a8273f993"/>
 <approved hash="4,1,c8874a668a3ff983"/>
-<approved hash="4,1,ced7a01e6457fbd3"/>
-<approved hash="4,1,d847eac63a9fe943"/>
+<approved hash="4,1,f83fd332214bc9e3"/>
+<approved hash="4,1,d83f8ac24bdbe983"/>
+<approved hash="4,1,de974f2e99a7ef93"/>
 <approved hash="4,1,cf5ff6fa30d3f9d3"/>
+<approved hash="4,1,ced7a01e6457fbd3"/>
+<approved hash="4,1,c83f54e295fbfa43"/>
+<approved hash="4,1,fedf9c4a6923c953"/>
+<approved hash="4,1,c8a79296532ff9e3"/>
+<approved hash="4,1,d847eac63a9fe943"/>
 <approved hash="4,1,b957fc8e4e078a53"/>
 <approved hash="4,1,d83fadd260ebe863"/>
-<approved hash="4,1,c83f54e295fbfa43"/>
-<approved hash="4,1,d83f8ac24bdbe983"/>
-<approved hash="4,1,f83fd332214bc9e3"/>
-<approved hash="4,1,cb1f431a8273f993"/>
-<approved hash="4,1,fedf9c4a6923c953"/>
 </errors>
 </board>
 </drawing>

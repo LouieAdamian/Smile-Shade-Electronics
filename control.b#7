@@ -1875,11 +1875,11 @@ design rules under a new name.</description>
 <attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="62.5" y="16" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PACKAGECASE" value="0603 1608 Metric" x="62.5" y="16" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="SL2" library="con-amp-quick" package="02P" value="" x="69.5" y="31.5">
-<attribute name="MPN" value="" x="69.5" y="31.5" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="69.5" y="31.5" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="69.5" y="31.5" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="69.5" y="31.5" size="1.778" layer="27" display="off"/>
+<element name="SL2" library="con-amp-quick" package="02P" value="" x="57" y="27.5">
+<attribute name="MPN" value="" x="57" y="27.5" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="57" y="27.5" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="57" y="27.5" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="57" y="27.5" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
@@ -2660,42 +2660,47 @@ design rules under a new name.</description>
 <signal name="N$39">
 <contactref element="U$1" pad="I2S+SPDIF"/>
 <contactref element="SL2" pad="1"/>
-<wire x1="53" y1="23.5" x2="68.23" y2="31.5" width="0" layer="19" extent="1-1"/>
+<wire x1="53" y1="23.5" x2="55.73" y2="27.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$40">
 <contactref element="U$1" pad="I2S-DO"/>
 <contactref element="SL2" pad="2"/>
-<wire x1="53" y1="21.5" x2="70.77" y2="31.5" width="0" layer="19" extent="1-1"/>
+<wire x1="53" y1="21.5" x2="58.27" y2="27.5" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>
+<approved hash="3,1,be9e9ae19ae0be9f"/>
+<approved hash="3,1,2f9c09e309e22f9d"/>
+<approved hash="3,1,a093b8ecb8efa090"/>
+<approved hash="3,1,519137ee37e95196"/>
+<approved hash="3,1,c294a6eba6eac295"/>
+<approved hash="3,1,73aa55d555d473ab"/>
+<approved hash="3,1,e4a9c4d6c4d1e4ae"/>
+<approved hash="3,1,95af73d073d395ac"/>
+<approved hash="3,1,06a2e2dde2dd06a2"/>
+<approved hash="3,1,b7a091df91deb7a1"/>
+<approved hash="3,1,28a600d900d828a7"/>
+<approved hash="3,1,d9a5bfdabfc5d9ba"/>
+<approved hash="3,1,4abb2ec42ec74ab8"/>
+<approved hash="3,1,fbbeddc1ddc0fbbf"/>
+<approved hash="3,1,6cbc4cc34cc26cbd"/>
+<approved hash="3,1,1db3fbccfbcc1db3"/>
+<approved hash="3,1,8eb16ace6ac98eb6"/>
+<approved hash="3,1,3fb719c819cb3fb4"/>
+<approved hash="3,1,02720277b796b793"/>
+<approved hash="3,1,00e300e6b405b400"/>
+<approved hash="3,1,06900695b2b4b2b1"/>
+<approved hash="3,1,050105048f2b8f2e"/>
 <approved hash="4,1,583d3749ca2542dc"/>
+<approved hash="4,1,b13d32e126ad542c"/>
 <approved hash="4,1,4c3d388dd079572c"/>
-<approved hash="4,1,5f7d9181688d472c"/>
-<approved hash="4,1,49fd892d6359532c"/>
-<approved hash="4,1,0851523f7b5906ad"/>
-<approved hash="4,1,4d3d2cf5c5d1577c"/>
+<approved hash="4,1,3c7d84e91e05271c"/>
 <approved hash="4,1,7ec9c1b815a58d72"/>
 <approved hash="4,1,719daac57dc1653c"/>
-<approved hash="4,1,b13d32e126ad542c"/>
-<approved hash="4,1,3c7d84e91e05271c"/>
-<approved hash="4,1,c52cd95674b3a638"/>
-<approved hash="4,1,5c594057b4bab64d"/>
-<approved hash="4,1,f755a75694a18641"/>
-<approved hash="4,1,0e420e699486b656"/>
-<approved hash="4,1,a97e75568cb6a66a"/>
-<approved hash="4,1,c06adc567cb7b67e"/>
-<approved hash="4,1,5b6743578c46b673"/>
-<approved hash="4,1,f293aa569ca18687"/>
-<approved hash="4,1,0d80115594bab694"/>
-<approved hash="4,1,a4bc7856b4b2a6a8"/>
-<approved hash="4,1,3fa8df5674bbb6bd"/>
-<approved hash="4,1,56a5465794c2c6b1"/>
-<approved hash="4,1,f1d1ad569cb9b6c5"/>
-<approved hash="4,1,08ce14518cb6a6da"/>
-<approved hash="4,1,a3fa7b56bcb6a6ee"/>
-<approved hash="4,1,3af6e2578ca7b6e3"/>
-<approved hash="4,1,1c1dc2dca3d1e8b7"/>
+<approved hash="4,1,0851523f7b5906ad"/>
+<approved hash="4,1,4d3d2cf5c5d1577c"/>
+<approved hash="4,1,49fd892d6359532c"/>
+<approved hash="4,1,5f7d9181688d472c"/>
 <approved hash="4,1,7854266f4573d5b9"/>
 <approved hash="4,1,e121bf66557215cc"/>
 <approved hash="4,1,062d147d657335c0"/>
@@ -2713,19 +2718,36 @@ design rules under a new name.</description>
 <approved hash="4,1,da82406a45731d6f"/>
 <approved hash="4,1,438fd97b55722d63"/>
 <approved hash="4,1,90d4193685419938"/>
-<approved hash="4,1,de974f2e99a7ef93"/>
-<approved hash="4,1,c8a79296532ff9e3"/>
+<approved hash="4,1,c52cd95674b3a638"/>
+<approved hash="4,1,5c594057b4bab64d"/>
+<approved hash="4,1,f755a75694a18641"/>
+<approved hash="4,1,0e420e699486b656"/>
+<approved hash="4,1,a97e75568cb6a66a"/>
+<approved hash="4,1,c06adc567cb7b67e"/>
+<approved hash="4,1,5b6743578c46b673"/>
+<approved hash="4,1,f293aa569ca18687"/>
+<approved hash="4,1,0d80115594bab694"/>
+<approved hash="4,1,a4bc7856b4b2a6a8"/>
+<approved hash="4,1,3fa8df5674bbb6bd"/>
+<approved hash="4,1,56a5465794c2c6b1"/>
+<approved hash="4,1,f1d1ad569cb9b6c5"/>
+<approved hash="4,1,08ce14518cb6a6da"/>
+<approved hash="4,1,a3fa7b56bcb6a6ee"/>
+<approved hash="4,1,3af6e2578ca7b6e3"/>
+<approved hash="4,1,1c1dc2dca3d1e8b7"/>
+<approved hash="4,1,cb1f431a8273f993"/>
 <approved hash="4,1,c8874a668a3ff983"/>
-<approved hash="4,1,ced7a01e6457fbd3"/>
-<approved hash="4,1,d847eac63a9fe943"/>
+<approved hash="4,1,f83fd332214bc9e3"/>
+<approved hash="4,1,d83f8ac24bdbe983"/>
+<approved hash="4,1,de974f2e99a7ef93"/>
 <approved hash="4,1,cf5ff6fa30d3f9d3"/>
+<approved hash="4,1,ced7a01e6457fbd3"/>
+<approved hash="4,1,c83f54e295fbfa43"/>
+<approved hash="4,1,fedf9c4a6923c953"/>
+<approved hash="4,1,c8a79296532ff9e3"/>
+<approved hash="4,1,d847eac63a9fe943"/>
 <approved hash="4,1,b957fc8e4e078a53"/>
 <approved hash="4,1,d83fadd260ebe863"/>
-<approved hash="4,1,c83f54e295fbfa43"/>
-<approved hash="4,1,d83f8ac24bdbe983"/>
-<approved hash="4,1,f83fd332214bc9e3"/>
-<approved hash="4,1,cb1f431a8273f993"/>
-<approved hash="4,1,fedf9c4a6923c953"/>
 </errors>
 </board>
 </drawing>
