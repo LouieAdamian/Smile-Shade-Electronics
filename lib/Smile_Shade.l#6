@@ -590,7 +590,6 @@
 <smd name="2" x="0.7747" y="0" dx="0.762" dy="0.8128" layer="1"/>
 <wire x1="-0.0762" y1="-0.5334" x2="0.0762" y2="-0.5334" width="0.1524" layer="21"/>
 <wire x1="0.0762" y1="0.5334" x2="-0.0762" y2="0.5334" width="0.1524" layer="21"/>
-<text x="-3.2766" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&lt;Name</text>
 <wire x1="-0.4064" y1="-0.4064" x2="-0.4064" y2="0.4064" width="0.1524" layer="51"/>
 <wire x1="-0.4064" y1="0.4064" x2="-0.8128" y2="0.4064" width="0.1524" layer="51"/>
 <wire x1="-0.8128" y1="-0.4064" x2="-0.4064" y2="-0.4064" width="0.1524" layer="51"/>
@@ -1666,7 +1665,7 @@
 <wire x1="7.62" y1="2.54" x2="-2.54" y2="2.54" width="0.127" layer="21"/>
 </package>
 <package name="SFV18R-3STBE1HLF">
-<smd name="P$1" x="0" y="0" dx="0.2" dy="0.7" layer="1"/>
+<smd name="P$1" x="0" y="0" dx="0.18" dy="0.7" layer="1"/>
 <smd name="P$2" x="0.5" y="0" dx="0.18" dy="0.7" layer="1"/>
 <smd name="P$3" x="1" y="0" dx="0.18" dy="0.7" layer="1"/>
 <smd name="P$4" x="1.5" y="0" dx="0.18" dy="0.7" layer="1"/>
