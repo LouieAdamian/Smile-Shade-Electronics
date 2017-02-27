@@ -681,13 +681,13 @@
 <wire x1="-0.8" y1="-4.9" x2="-0.8" y2="-3.5" width="0.127" layer="21"/>
 </package>
 <package name="SOT23">
-<smd name="P$1" x="0" y="0" dx="0.5" dy="0.6" layer="1"/>
-<smd name="P$2" x="-0.95" y="2" dx="0.5" dy="0.6" layer="1"/>
-<smd name="P$3" x="0.95" y="2" dx="0.5" dy="0.6" layer="1"/>
-<wire x1="-1.5" y1="0.05" x2="-1.5" y2="1.95" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="1.95" x2="1.5" y2="1.95" width="0.127" layer="21"/>
-<wire x1="1.5" y1="1.95" x2="1.5" y2="0.05" width="0.127" layer="21"/>
-<wire x1="1.5" y1="0.05" x2="-1.5" y2="0.05" width="0.127" layer="21"/>
+<smd name="P$1" x="0" y="-1" dx="0.5" dy="0.6" layer="1"/>
+<smd name="P$2" x="-0.95" y="1" dx="0.5" dy="0.6" layer="1"/>
+<smd name="P$3" x="0.95" y="1" dx="0.5" dy="0.6" layer="1"/>
+<wire x1="-1.5" y1="-0.95" x2="-1.5" y2="0.95" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="0.95" x2="1.5" y2="0.95" width="0.127" layer="51"/>
+<wire x1="1.5" y1="0.95" x2="1.5" y2="-0.95" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-0.95" x2="-1.5" y2="-0.95" width="0.127" layer="51"/>
 </package>
 <package name="TS5B">
 <smd name="1" x="-3.4036" y="-8.2804" dx="1.016" dy="2.6924" layer="1"/>

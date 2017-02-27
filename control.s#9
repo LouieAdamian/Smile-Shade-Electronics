@@ -3449,7 +3449,7 @@ USI</description>
 <instance part="3V3" gate="G$1" x="-25.4" y="58.42"/>
 <instance part="IC3" gate="G$1" x="-60.96" y="60.96" rot="MR0"/>
 <instance part="GND22" gate="1" x="-27.94" y="50.8" rot="MR0"/>
-<instance part="SL2" gate="G$1" x="27.94" y="-22.86" rot="R90"/>
+<instance part="SL2" gate="G$1" x="43.18" y="-20.32" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -3617,18 +3617,18 @@ USI</description>
 </net>
 <net name="N$39" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="I2SMCLK"/>
-<wire x1="22.86" y1="-2.54" x2="22.86" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="-7.62" x2="25.4" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="SL2" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="-7.62" x2="25.4" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="I2SSPDIF"/>
+<pinref part="SL2" gate="G$1" pin="1"/>
+<wire x1="43.18" y1="-2.54" x2="43.18" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$40" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="I2SBCLK"/>
-<pinref part="SL2" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="-2.54" x2="27.94" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="I2SDO"/>
+<wire x1="38.1" y1="-2.54" x2="38.1" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-10.16" x2="40.64" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="SL2" gate="G$1" pin="2"/>
+<wire x1="40.64" y1="-10.16" x2="40.64" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

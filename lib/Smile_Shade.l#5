@@ -3247,7 +3247,6 @@
 </deviceset>
 <deviceset name="TPS54560DDAR">
 <gates>
-<gate name="G$1" symbol="LM2576HVS-5_0NOPB" x="0" y="5.08"/>
 </gates>
 <devices>
 <device name="" package="8-S-POWERPAD">
