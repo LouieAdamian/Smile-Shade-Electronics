@@ -2779,6 +2779,8 @@ USI</description>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="U1" library="Smile_Shade" deviceset="L293DD013TR" device=""/>
+<part name="P+4" library="supply1" deviceset="VCC" device=""/>
+<part name="P+5" library="supply1" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4064,6 +4066,8 @@ USI</description>
 <instance part="P+3" gate="VCC" x="124.46" y="109.22"/>
 <instance part="GND4" gate="1" x="177.8" y="104.14"/>
 <instance part="U1" gate="A" x="124.46" y="38.1"/>
+<instance part="P+4" gate="VCC" x="200.66" y="40.64"/>
+<instance part="P+5" gate="VCC" x="119.38" y="17.78"/>
 </instances>
 <busses>
 </busses>
@@ -4167,10 +4171,7 @@ USI</description>
 <segment>
 <pinref part="U1" gate="A" pin="VSS"/>
 <wire x1="198.12" y1="38.1" x2="200.66" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U1" gate="A" pin="VS"/>
-<wire x1="127" y1="15.24" x2="124.46" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="P+4" gate="VCC" pin="VCC"/>
 </segment>
 </net>
 <net name="M1B" class="0">
@@ -4424,6 +4425,13 @@ USI</description>
 <segment>
 <pinref part="U1" gate="A" pin="INPUT_2"/>
 <wire x1="127" y1="17.78" x2="124.46" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VCC" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="VS"/>
+<pinref part="P+5" gate="VCC" pin="VCC"/>
+<wire x1="127" y1="15.24" x2="119.38" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
