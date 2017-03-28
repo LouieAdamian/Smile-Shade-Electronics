@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.0.0">
+<eagle version="8.0.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -67,6 +67,14 @@
 <wire x1="3.74" y1="-1.1" x2="3.74" y2="1.1" width="0.127" layer="51"/>
 <wire x1="3.74" y1="1.1" x2="-1.85" y2="1.1" width="0.127" layer="51"/>
 </package>
+<package name="BXEN-40E-11M-3A-00-0-0">
+<smd name="P$1" x="-1.1" y="0" dx="2.3" dy="2" layer="1" rot="R180"/>
+<smd name="P$2" x="1.55" y="0" dx="1.4" dy="2" layer="1"/>
+<wire x1="-1.7" y1="-1.37" x2="-1.7" y2="1.37" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="1.37" x2="1.7" y2="1.37" width="0.127" layer="21"/>
+<wire x1="1.7" y1="1.37" x2="1.7" y2="-1.37" width="0.127" layer="21"/>
+<wire x1="1.7" y1="-1.37" x2="-1.7" y2="-1.37" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="JDSTS2.EM-HRHT-XX52-1">
@@ -75,6 +83,14 @@
 <wire x1="-2.54" y1="2.54" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+</symbol>
+<symbol name="BXEN-40E-11M-3A-00-0-0">
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<pin name="P$1" x="-7.62" y="0" length="middle"/>
+<pin name="P$2" x="5.08" y="0" length="middle" rot="R180"/>
 <wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
@@ -88,6 +104,22 @@
 <connects>
 <connect gate="G$1" pin="P$1" pad="GND"/>
 <connect gate="G$1" pin="P$2" pad="3V"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BXEN-40E-11M-3A-00-0-0">
+<gates>
+<gate name="G$1" symbol="BXEN-40E-11M-3A-00-0-0" x="7.62" y="0"/>
+</gates>
+<devices>
+<device name="" package="BXEN-40E-11M-3A-00-0-0">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -117,6 +149,16 @@
 <part name="U$8" library="Smile_Shade" deviceset="JDSTS2.EM-HRHT-XX52-1" device=""/>
 <part name="U$9" library="Smile_Shade" deviceset="JDSTS2.EM-HRHT-XX52-1" device=""/>
 <part name="U$10" library="Smile_Shade" deviceset="JDSTS2.EM-HRHT-XX52-1" device=""/>
+<part name="U$11" library="Smile_Shade" deviceset="BXEN-40E-11M-3A-00-0-0" device=""/>
+<part name="U$12" library="Smile_Shade" deviceset="BXEN-40E-11M-3A-00-0-0" device=""/>
+<part name="U$13" library="Smile_Shade" deviceset="BXEN-40E-11M-3A-00-0-0" device=""/>
+<part name="U$14" library="Smile_Shade" deviceset="BXEN-40E-11M-3A-00-0-0" device=""/>
+<part name="U$15" library="Smile_Shade" deviceset="BXEN-40E-11M-3A-00-0-0" device=""/>
+<part name="U$16" library="Smile_Shade" deviceset="BXEN-40E-11M-3A-00-0-0" device=""/>
+<part name="U$17" library="Smile_Shade" deviceset="BXEN-40E-11M-3A-00-0-0" device=""/>
+<part name="U$18" library="Smile_Shade" deviceset="BXEN-40E-11M-3A-00-0-0" device=""/>
+<part name="U$19" library="Smile_Shade" deviceset="BXEN-40E-11M-3A-00-0-0" device=""/>
+<part name="U$20" library="Smile_Shade" deviceset="BXEN-40E-11M-3A-00-0-0" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -133,6 +175,16 @@
 <instance part="U$8" gate="G$1" x="114.3" y="5.08"/>
 <instance part="U$9" gate="G$1" x="129.54" y="5.08"/>
 <instance part="U$10" gate="G$1" x="144.78" y="5.08"/>
+<instance part="U$11" gate="G$1" x="7.62" y="12.7"/>
+<instance part="U$12" gate="G$1" x="22.86" y="12.7"/>
+<instance part="U$13" gate="G$1" x="38.1" y="12.7"/>
+<instance part="U$14" gate="G$1" x="53.34" y="12.7"/>
+<instance part="U$15" gate="G$1" x="68.58" y="12.7"/>
+<instance part="U$16" gate="G$1" x="83.82" y="12.7"/>
+<instance part="U$17" gate="G$1" x="99.06" y="12.7"/>
+<instance part="U$18" gate="G$1" x="114.3" y="12.7"/>
+<instance part="U$19" gate="G$1" x="129.54" y="12.7"/>
+<instance part="U$20" gate="G$1" x="144.78" y="12.7"/>
 </instances>
 <busses>
 </busses>
@@ -198,6 +250,69 @@
 <pinref part="U$9" gate="G$1" pin="P$2"/>
 <pinref part="U$10" gate="G$1" pin="P$1"/>
 <wire x1="134.62" y1="5.08" x2="137.16" y2="5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="U$20" gate="G$1" pin="P$1"/>
+<pinref part="U$19" gate="G$1" pin="P$2"/>
+<wire x1="137.16" y1="12.7" x2="134.62" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="U$19" gate="G$1" pin="P$1"/>
+<pinref part="U$18" gate="G$1" pin="P$2"/>
+<wire x1="121.92" y1="12.7" x2="119.38" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="U$18" gate="G$1" pin="P$1"/>
+<pinref part="U$17" gate="G$1" pin="P$2"/>
+<wire x1="106.68" y1="12.7" x2="104.14" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="U$17" gate="G$1" pin="P$1"/>
+<pinref part="U$16" gate="G$1" pin="P$2"/>
+<wire x1="91.44" y1="12.7" x2="88.9" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="U$16" gate="G$1" pin="P$1"/>
+<pinref part="U$15" gate="G$1" pin="P$2"/>
+<wire x1="76.2" y1="12.7" x2="73.66" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="U$11" gate="G$1" pin="P$2"/>
+<pinref part="U$12" gate="G$1" pin="P$1"/>
+<wire x1="12.7" y1="12.7" x2="15.24" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="U$12" gate="G$1" pin="P$2"/>
+<pinref part="U$13" gate="G$1" pin="P$1"/>
+<wire x1="27.94" y1="12.7" x2="30.48" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="U$13" gate="G$1" pin="P$2"/>
+<pinref part="U$14" gate="G$1" pin="P$1"/>
+<wire x1="43.18" y1="12.7" x2="45.72" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="U$14" gate="G$1" pin="P$2"/>
+<pinref part="U$15" gate="G$1" pin="P$1"/>
+<wire x1="58.42" y1="12.7" x2="60.96" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
