@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.0.2">
+<eagle version="8.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -416,13 +416,12 @@
 <smd name="SCK0" x="10.6" y="-12.3" dx="0.7" dy="0.4" layer="1" rot="R90"/>
 </package>
 <package name="JDSTS2.EM-HRHT-XX52-1">
-<smd name="3V" x="0" y="0" dx="1.44" dy="2.11" layer="1" rot="R90"/>
-<smd name="GND" x="3" y="0" dx="2" dy="1.47" layer="1" rot="R90"/>
-<wire x1="-2.8" y1="1.5" x2="-2.8" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="-2.8" y1="-1.5" x2="2.8" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="2.8" y1="-1.5" x2="2.8" y2="1.5" width="0.127" layer="51"/>
-<wire x1="2.8" y1="1.5" x2="-2.8" y2="1.5" width="0.127" layer="51"/>
-<smd name="P$1" x="-2" y="0.25" dx="1.81" dy="0.8" layer="1"/>
+<smd name="3V" x="-0.945" y="0" dx="2" dy="3.71" layer="1" rot="R90"/>
+<smd name="GND" x="2.065" y="0" dx="2" dy="1.47" layer="1" rot="R90"/>
+<wire x1="-2.65" y1="1.5" x2="-2.65" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="-2.65" y1="-1.5" x2="2.65" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="2.65" y1="-1.5" x2="2.65" y2="1.5" width="0.127" layer="51"/>
+<wire x1="2.65" y1="1.5" x2="-2.65" y2="1.5" width="0.127" layer="51"/>
 </package>
 <package name="SOT26">
 <smd name="1" x="-1.2" y="0.95" dx="0.8" dy="0.55" layer="1"/>

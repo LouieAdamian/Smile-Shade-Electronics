@@ -3812,6 +3812,14 @@ USI</description>
 <pinref part="U$31" gate="G$1" pin="GATE"/>
 <wire x1="147.32" y1="45.72" x2="147.32" y2="43.18" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$33" gate="G$1" pin="GATE"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="5.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$35" gate="G$1" pin="GATE"/>
+<wire x1="45.72" y1="7.62" x2="45.72" y2="5.08" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GND16" class="0">
 <segment>
@@ -3833,12 +3841,6 @@ USI</description>
 <wire x1="27.94" y1="25.4" x2="15.24" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="ZN16" class="0">
-<segment>
-<pinref part="U$33" gate="G$1" pin="GATE"/>
-<wire x1="-5.08" y1="7.62" x2="-5.08" y2="5.08" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="GND17" class="0">
 <segment>
 <pinref part="U$35" gate="G$1" pin="DRAIN"/>
@@ -3857,12 +3859,6 @@ USI</description>
 <wire x1="78.74" y1="30.48" x2="78.74" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="U$40" gate="A" pin="GND"/>
 <wire x1="78.74" y1="25.4" x2="66.04" y2="25.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="ZN17" class="0">
-<segment>
-<pinref part="U$35" gate="G$1" pin="GATE"/>
-<wire x1="45.72" y1="7.62" x2="45.72" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND18" class="0">

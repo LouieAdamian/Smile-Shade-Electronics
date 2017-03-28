@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -2650,12 +2650,11 @@
 </package>
 <package name="BXEN-40E-11M-3A-00-0-0">
 <smd name="P$1" x="-1.1" y="0" dx="2.3" dy="2" layer="1" rot="R180"/>
-<smd name="P$2" x="2" y="0" dx="1.4" dy="2" layer="1"/>
+<smd name="P$2" x="1.55" y="0" dx="1.4" dy="2" layer="1"/>
 <wire x1="-1.7" y1="-1.37" x2="-1.7" y2="1.37" width="0.127" layer="1"/>
 <wire x1="-1.7" y1="1.37" x2="1.7" y2="1.37" width="0.127" layer="1"/>
 <wire x1="1.7" y1="1.37" x2="1.7" y2="-1.37" width="0.127" layer="1"/>
 <wire x1="1.7" y1="-1.37" x2="-1.7" y2="-1.37" width="0.127" layer="1"/>
-<dimension x1="1.3" y1="-1.06" x2="0.05" y2="-1.06" x3="0.675" y3="-1.950003125" textsize="1.27" layer="1"/>
 </package>
 </packages>
 <symbols>

@@ -422,23 +422,6 @@
 <wire x1="2.1844" y1="-5.7658" x2="2.1844" y2="-6.5786" width="0.1524" layer="21"/>
 <wire x1="3.8862" y1="-5.7658" x2="3.8862" y2="-6.5786" width="0.1524" layer="21"/>
 </package>
-<package name="RC0603N">
-<smd name="1" x="-0.7747" y="0" dx="0.762" dy="0.8128" layer="1"/>
-<smd name="2" x="0.7747" y="0" dx="0.762" dy="0.8128" layer="1"/>
-<wire x1="-0.0762" y1="-0.5334" x2="0.0762" y2="-0.5334" width="0.1524" layer="21"/>
-<wire x1="0.0762" y1="0.5334" x2="-0.0762" y2="0.5334" width="0.1524" layer="21"/>
-<wire x1="-0.4064" y1="-0.4064" x2="-0.4064" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="-0.4064" y1="0.4064" x2="-0.8128" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="-0.8128" y1="-0.4064" x2="-0.4064" y2="-0.4064" width="0.1524" layer="51"/>
-<wire x1="0.4064" y1="0.4064" x2="0.4064" y2="-0.4064" width="0.1524" layer="51"/>
-<wire x1="0.4064" y1="-0.4064" x2="0.8128" y2="-0.4064" width="0.1524" layer="51"/>
-<wire x1="0.7874" y1="0.4064" x2="0.4064" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="-0.4064" y1="-0.4064" x2="0.4064" y2="-0.4064" width="0.1524" layer="51"/>
-<wire x1="0.8128" y1="-0.4064" x2="0.8128" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="0.8128" y1="0.4064" x2="0.7874" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="0.4064" y1="0.4064" x2="-0.4064" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="-0.8128" y1="0.4064" x2="-0.8128" y2="-0.4064" width="0.1524" layer="51"/>
-</package>
 <package name="8-S-POWERPAD">
 <wire x1="-2" y1="2.5" x2="-2" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="-2" y1="-2.5" x2="2" y2="-2.5" width="0.127" layer="21"/>
@@ -1410,7 +1393,7 @@ design rules under a new name.</description>
 <element name="U$36" library="Smile_Shade" package="IND_BOURNS_SRN8040" value="SRN8040-101M" x="33.5" y="72.8646"/>
 <element name="U$37" library="Smile_Shade" package="SOT361-1" value="PCA9685PW/Q900" x="55" y="64"/>
 <element name="IC3" library="avr" package="SOIC8" value="ATTINY85-20S" x="18.561" y="62.939" smashed="yes"/>
-<element name="U$44" library="Smile_Shade" package="SFV18R-3STBE1HLF" value="SFV18R-3STBE1HLF" x="169" y="98" rot="R180"/>
+<element name="U$44" library="Smile_Shade" package="SFV18R-3STBE1HLF" value="SFV18R-3STBE1HLF" x="152" y="31" rot="R180"/>
 <element name="U$39" library="Smile_Shade" package="SFV4R-3STBE1HLF" value="SFV4R-3STBE1HLF" x="5" y="53.5" rot="R270"/>
 <element name="SL1" library="con-amp-quick" package="06P" value="" x="30.5" y="81" rot="R180">
 <attribute name="MF" value="" x="30.5" y="81" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1429,32 +1412,6 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LM2576HVSX5.0NOPB" x="43.9492" y="61.3124" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="National Semiconductor" x="43.9492" y="61.3124" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R8" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="135" y="35" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="135" y="35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="135" y="35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="135" y="35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="135" y="35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="135" y="35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="135" y="35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="135" y="35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="135" y="35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="135" y="35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="135" y="35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="135" y="35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="135" y="35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="135" y="35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="135" y="35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="135" y="35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="135" y="35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="135" y="35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="135" y="35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="135" y="35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="135" y="35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="135" y="35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="135" y="35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="135" y="35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="135" y="35" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
 <element name="SL4" library="con-amp-quick" package="03P" value="" x="73.5" y="66" rot="R270">
 <attribute name="MF" value="" x="73.5" y="66" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="73.5" y="66" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1471,7 +1428,7 @@ design rules under a new name.</description>
 <attribute name="VENDOR" value="Nichicon" x="55" y="85" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U$2" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="135" y="32" rot="R90"/>
-<element name="U$80" library="Smile_Shade" package="SFV18R-3STBE1HLF" value="SFV18R-3STBE1HLF" x="112.5" y="54.5"/>
+<element name="U$80" library="Smile_Shade" package="SFV18R-3STBE1HLF" value="SFV18R-3STBE1HLF" x="137" y="31" rot="R180"/>
 </elements>
 <signals>
 <signal name="VBUS">
@@ -1511,11 +1468,9 @@ design rules under a new name.</description>
 <contactref element="U1" pad="16"/>
 <contactref element="U1" pad="17"/>
 <contactref element="U$38" pad="P$1"/>
-<contactref element="R8" pad="1"/>
 <contactref element="U$2" pad="4"/>
-<wire x1="135.95" y1="33.2" x2="135.7747" y2="35" width="0" layer="19" extent="1-1"/>
 <wire x1="135" y1="27" x2="135.95" y2="33.2" width="0" layer="19" extent="1-1"/>
-<wire x1="59.325" y1="60.775" x2="135.7747" y2="35" width="0" layer="19" extent="1-1"/>
+<wire x1="59.325" y1="60.775" x2="135.95" y2="33.2" width="0" layer="19" extent="1-1"/>
 <wire x1="43.9492" y1="61.3124" x2="59.325" y2="60.775" width="0" layer="19" extent="1-1"/>
 <wire x1="43.9492" y1="69.5928" x2="43.9492" y2="61.3124" width="0" layer="19" extent="1-1"/>
 <wire x1="40.5456" y1="69.5928" x2="43.9492" y2="69.5928" width="0" layer="19" extent="1-1"/>
@@ -1568,7 +1523,7 @@ design rules under a new name.</description>
 <contactref element="U$2" pad="5"/>
 <wire x1="135.95" y1="30.8" x2="135" y2="30.8" width="0.254" layer="1"/>
 <wire x1="135" y1="30.8" x2="135" y2="33.2" width="0" layer="19" extent="1-1"/>
-<wire x1="169" y1="98" x2="135" y2="33.2" width="0" layer="19" extent="1-1"/>
+<wire x1="152" y1="31" x2="135" y2="33.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="48V">
 <contactref element="C2" pad="1"/>
@@ -1833,11 +1788,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="VCC">
 <contactref element="U1" pad="10"/>
-</signal>
-<signal name="N$15">
-<contactref element="U$2" pad="6"/>
-<contactref element="R8" pad="2"/>
-<wire x1="134.2253" y1="35" x2="134.05" y2="33.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="U$38" pad="P$3"/>

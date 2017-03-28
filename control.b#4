@@ -1410,7 +1410,7 @@ design rules under a new name.</description>
 <element name="U$36" library="Smile_Shade" package="IND_BOURNS_SRN8040" value="SRN8040-101M" x="33.5" y="72.8646"/>
 <element name="U$37" library="Smile_Shade" package="SOT361-1" value="PCA9685PW/Q900" x="55" y="64"/>
 <element name="IC3" library="avr" package="SOIC8" value="ATTINY85-20S" x="18.561" y="62.939" smashed="yes"/>
-<element name="U$44" library="Smile_Shade" package="SFV18R-3STBE1HLF" value="SFV18R-3STBE1HLF" x="169" y="98" rot="R180"/>
+<element name="U$44" library="Smile_Shade" package="SFV18R-3STBE1HLF" value="SFV18R-3STBE1HLF" x="152" y="31" rot="R180"/>
 <element name="U$39" library="Smile_Shade" package="SFV4R-3STBE1HLF" value="SFV4R-3STBE1HLF" x="5" y="53.5" rot="R270"/>
 <element name="SL1" library="con-amp-quick" package="06P" value="" x="30.5" y="81" rot="R180">
 <attribute name="MF" value="" x="30.5" y="81" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1471,7 +1471,7 @@ design rules under a new name.</description>
 <attribute name="VENDOR" value="Nichicon" x="55" y="85" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U$2" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="135" y="32" rot="R90"/>
-<element name="U$80" library="Smile_Shade" package="SFV18R-3STBE1HLF" value="SFV18R-3STBE1HLF" x="-16.5" y="-157.5"/>
+<element name="U$80" library="Smile_Shade" package="SFV18R-3STBE1HLF" value="SFV18R-3STBE1HLF" x="137" y="31" rot="R180"/>
 </elements>
 <signals>
 <signal name="VBUS">
@@ -1568,7 +1568,7 @@ design rules under a new name.</description>
 <contactref element="U$2" pad="5"/>
 <wire x1="135.95" y1="30.8" x2="135" y2="30.8" width="0.254" layer="1"/>
 <wire x1="135" y1="30.8" x2="135" y2="33.2" width="0" layer="19" extent="1-1"/>
-<wire x1="169" y1="98" x2="135" y2="33.2" width="0" layer="19" extent="1-1"/>
+<wire x1="152" y1="31" x2="135" y2="33.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="48V">
 <contactref element="C2" pad="1"/>
