@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="2" fill="1" visible="yes" active="yes"/>
@@ -421,23 +421,6 @@
 <wire x1="0.4826" y1="-5.7658" x2="0.4826" y2="-6.5786" width="0.1524" layer="21"/>
 <wire x1="2.1844" y1="-5.7658" x2="2.1844" y2="-6.5786" width="0.1524" layer="21"/>
 <wire x1="3.8862" y1="-5.7658" x2="3.8862" y2="-6.5786" width="0.1524" layer="21"/>
-</package>
-<package name="RC0603N">
-<smd name="1" x="-0.7747" y="0" dx="0.762" dy="0.8128" layer="1"/>
-<smd name="2" x="0.7747" y="0" dx="0.762" dy="0.8128" layer="1"/>
-<wire x1="-0.0762" y1="-0.5334" x2="0.0762" y2="-0.5334" width="0.1524" layer="21"/>
-<wire x1="0.0762" y1="0.5334" x2="-0.0762" y2="0.5334" width="0.1524" layer="21"/>
-<wire x1="-0.4064" y1="-0.4064" x2="-0.4064" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="-0.4064" y1="0.4064" x2="-0.8128" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="-0.8128" y1="-0.4064" x2="-0.4064" y2="-0.4064" width="0.1524" layer="51"/>
-<wire x1="0.4064" y1="0.4064" x2="0.4064" y2="-0.4064" width="0.1524" layer="51"/>
-<wire x1="0.4064" y1="-0.4064" x2="0.8128" y2="-0.4064" width="0.1524" layer="51"/>
-<wire x1="0.7874" y1="0.4064" x2="0.4064" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="-0.4064" y1="-0.4064" x2="0.4064" y2="-0.4064" width="0.1524" layer="51"/>
-<wire x1="0.8128" y1="-0.4064" x2="0.8128" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="0.8128" y1="0.4064" x2="0.7874" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="0.4064" y1="0.4064" x2="-0.4064" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="-0.8128" y1="0.4064" x2="-0.8128" y2="-0.4064" width="0.1524" layer="51"/>
 </package>
 <package name="8-S-POWERPAD">
 <wire x1="-2" y1="2.5" x2="-2" y2="-2.5" width="0.127" layer="21"/>
@@ -1410,56 +1393,30 @@ design rules under a new name.</description>
 <element name="U$36" library="Smile_Shade" package="IND_BOURNS_SRN8040" value="SRN8040-101M" x="33.5" y="72.8646"/>
 <element name="U$37" library="Smile_Shade" package="SOT361-1" value="PCA9685PW/Q900" x="55" y="64"/>
 <element name="IC3" library="avr" package="SOIC8" value="ATTINY85-20S" x="18.561" y="62.939" smashed="yes"/>
-<element name="U$44" library="Smile_Shade" package="SFV18R-3STBE1HLF" value="SFV18R-3STBE1HLF" x="169" y="98" rot="R180"/>
-<element name="U$39" library="Smile_Shade" package="SFV4R-3STBE1HLF" value="SFV4R-3STBE1HLF" x="5" y="32.5" rot="R270"/>
+<element name="U$44" library="Smile_Shade" package="SFV18R-3STBE1HLF" value="SFV18R-3STBE1HLF" x="152" y="31" rot="R180"/>
+<element name="U$39" library="Smile_Shade" package="SFV4R-3STBE1HLF" value="SFV4R-3STBE1HLF" x="5" y="36.5" rot="R270"/>
 <element name="SL1" library="con-amp-quick" package="06P" value="" x="30.5" y="81" rot="R180">
 <attribute name="MF" value="" x="30.5" y="81" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="30.5" y="81" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="30.5" y="81" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="30.5" y="81" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U$38" library="Smile_Shade" package="SOT23" value="2N7002P" x="234" y="84" rot="R180"/>
-<element name="SL3" library="con-amp-quick" package="09P" value="" x="151.5" y="15" rot="R270">
-<attribute name="MF" value="" x="151.5" y="15" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="151.5" y="15" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="151.5" y="15" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="151.5" y="15" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="U$38" library="Smile_Shade" package="SOT23" value="2N7002P" x="135" y="28"/>
+<element name="SL3" library="con-amp-quick" package="09P" value="" x="128.5" y="61" rot="R90">
+<attribute name="MF" value="" x="128.5" y="61" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="128.5" y="61" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="128.5" y="61" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="128.5" y="61" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U$43" library="Smile_Shade" package="TS5B" value="LM2576HVSX-5.0/NOPB" x="43.9492" y="61.3124" rot="R180">
 <attribute name="MANUFACTURER_PART_NUMBER" value="LM2576HVSX5.0NOPB" x="43.9492" y="61.3124" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="National Semiconductor" x="43.9492" y="61.3124" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R8" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="234" y="91" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="234" y="91" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="234" y="91" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="234" y="91" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="234" y="91" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="234" y="91" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="234" y="91" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="234" y="91" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="234" y="91" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="234" y="91" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="234" y="91" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="234" y="91" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="234" y="91" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="234" y="91" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="234" y="91" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="234" y="91" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="234" y="91" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="234" y="91" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="234" y="91" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="234" y="91" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="234" y="91" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="234" y="91" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="234" y="91" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="234" y="91" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="234" y="91" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="SL4" library="con-amp-quick" package="03P" value="" x="146.5" y="5" rot="R270">
-<attribute name="MF" value="" x="146.5" y="5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="146.5" y="5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="146.5" y="5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="146.5" y="5" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="SL4" library="con-amp-quick" package="03P" value="" x="120.5" y="59" rot="R270">
+<attribute name="MF" value="" x="120.5" y="59" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="120.5" y="59" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="120.5" y="59" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="120.5" y="59" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U$42" library="Smile_Shade" package="8-S-POWERPAD" value="TPS54560DDAR" x="41.5" y="76" rot="R90"/>
 <element name="U1" library="Smile_Shade" package="SO-20" value="L293DD013TR" x="31.5" y="61.5" rot="R90">
@@ -1470,988 +1427,8 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="UWX1C101MCL1GB" x="55" y="85" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Nichicon" x="55" y="85" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U$2" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="234" y="88" rot="R90"/>
-<element name="U$3" library="Smile_Shade" package="SOT23" value="2N7002P" x="229.5" y="84" rot="R180"/>
-<element name="R1" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="229.5" y="91" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="236" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="236" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="236" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="236" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="236" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="236" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="236" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="236" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="236" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="236" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="236" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="236" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="236" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="236" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="236" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="236" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="236" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="236" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="236" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="236" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="236" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="236" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="236" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="236" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$4" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="229.5" y="88" rot="R90"/>
-<element name="U$5" library="Smile_Shade" package="SOT23" value="2N7002P" x="225" y="84" rot="R180"/>
-<element name="R2" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="225" y="91" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="236.5" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="236.5" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="236.5" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="236.5" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="236.5" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="236.5" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="236.5" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="236.5" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="236.5" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="236.5" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="236.5" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="236.5" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="236.5" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="236.5" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="236.5" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="236.5" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="236.5" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="236.5" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="236.5" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="236.5" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="236.5" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="236.5" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="236.5" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="236.5" y="80" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$6" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="225" y="88" rot="R90"/>
-<element name="U$7" library="Smile_Shade" package="SOT23" value="2N7002P" x="220.5" y="84" rot="R180"/>
-<element name="R3" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="220.5" y="91" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="233" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="233" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="233" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="233" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="233" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="233" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="233" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="233" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="233" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="233" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="233" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="233" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="233" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="233" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="233" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="233" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="233" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="233" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="233" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="233" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="233" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="233" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="233" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="233" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$8" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="220.5" y="88" rot="R90"/>
-<element name="U$9" library="Smile_Shade" package="SOT23" value="2N7002P" x="211.5" y="84" rot="R180"/>
-<element name="R4" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="211.5" y="91" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="223" y="76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="223" y="76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="223" y="76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="223" y="76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="223" y="76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="223" y="76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="223" y="76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="223" y="76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="223" y="76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="223" y="76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="223" y="76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="223" y="76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="223" y="76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="223" y="76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="223" y="76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="223" y="76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="223" y="76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="223" y="76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="223" y="76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="223" y="76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="223" y="76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="223" y="76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="223" y="76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="223" y="76" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$10" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="211.5" y="88" rot="R90"/>
-<element name="U$11" library="Smile_Shade" package="SOT23" value="2N7002P" x="207" y="84" rot="R180"/>
-<element name="R5" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="207" y="91" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="227.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="227.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="227.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="227.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="227.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="227.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="227.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="227.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="227.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="227.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="227.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="227.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="227.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="227.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="227.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="227.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="227.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="227.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="227.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="227.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="227.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="227.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="227.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="227.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$12" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="207" y="88" rot="R90"/>
-<element name="U$13" library="Smile_Shade" package="SOT23" value="2N7002P" x="216" y="84" rot="R180"/>
-<element name="R6" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="216" y="91" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="234.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="234.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="234.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="234.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="234.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="234.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="234.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="234.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="234.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="234.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="234.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="234.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="234.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="234.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="234.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="234.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="234.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="234.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="234.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="234.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="234.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="234.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="234.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="234.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$14" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="216" y="88" rot="R90"/>
-<element name="U$15" library="Smile_Shade" package="SOT23" value="2N7002P" x="202.5" y="84" rot="R180"/>
-<element name="R7" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="202.5" y="91" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="230" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="230" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="230" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="230" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="230" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="230" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="230" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="230" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="230" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="230" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="230" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="230" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="230" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="230" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="230" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="230" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="230" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="230" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="230" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="230" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="230" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="230" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="230" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="230" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$16" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="202.5" y="88" rot="R90"/>
-<element name="U$17" library="Smile_Shade" package="SOT23" value="2N7002P" x="198" y="84" rot="R180"/>
-<element name="R9" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="198" y="91" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="209.5" y="72" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="209.5" y="72" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="209.5" y="72" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="209.5" y="72" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="209.5" y="72" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="209.5" y="72" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="209.5" y="72" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="209.5" y="72" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="209.5" y="72" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="209.5" y="72" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="209.5" y="72" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="209.5" y="72" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="209.5" y="72" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="209.5" y="72" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="209.5" y="72" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="209.5" y="72" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="209.5" y="72" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="209.5" y="72" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="209.5" y="72" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="209.5" y="72" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="209.5" y="72" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="209.5" y="72" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="209.5" y="72" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="209.5" y="72" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$18" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="198" y="88" rot="R90"/>
-<element name="U$19" library="Smile_Shade" package="SOT23" value="2N7002P" x="193.5" y="84" rot="R180"/>
-<element name="R10" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="193.5" y="91" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="214" y="75.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="214" y="75.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="214" y="75.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="214" y="75.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="214" y="75.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="214" y="75.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="214" y="75.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="214" y="75.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="214" y="75.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="214" y="75.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="214" y="75.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="214" y="75.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="214" y="75.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="214" y="75.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="214" y="75.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="214" y="75.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="214" y="75.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="214" y="75.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="214" y="75.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="214" y="75.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="214" y="75.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="214" y="75.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="214" y="75.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="214" y="75.5" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$20" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="193.5" y="88" rot="R90"/>
-<element name="U$21" library="Smile_Shade" package="SOT23" value="2N7002P" x="189" y="84" rot="R180"/>
-<element name="R11" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="189" y="91" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="218.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="218.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="218.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="218.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="218.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="218.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="218.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="218.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="218.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="218.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="218.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="218.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="218.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="218.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="218.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="218.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="218.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="218.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="218.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="218.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="218.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="218.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="218.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="218.5" y="79.5" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$22" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="189" y="88" rot="R90"/>
-<element name="U$23" library="Smile_Shade" package="SOT23" value="2N7002P" x="184.5" y="84" rot="R180"/>
-<element name="R12" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="184.5" y="91" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="223" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="223" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="223" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="223" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="223" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="223" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="223" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="223" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="223" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="223" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="223" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="223" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="223" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="223" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="223" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="223" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="223" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="223" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="223" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="223" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="223" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="223" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="223" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="223" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$24" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="184.5" y="88" rot="R90"/>
-<element name="U$25" library="Smile_Shade" package="SOT23" value="2N7002P" x="180" y="84" rot="R180"/>
-<element name="R13" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="180" y="91" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="210.5" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="210.5" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="210.5" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="210.5" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="210.5" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="210.5" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="210.5" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="210.5" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="210.5" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="210.5" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="210.5" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="210.5" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="210.5" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="210.5" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="210.5" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="210.5" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="210.5" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="210.5" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="210.5" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="210.5" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="210.5" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="210.5" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="210.5" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="210.5" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$26" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="180" y="88" rot="R90"/>
-<element name="U$27" library="Smile_Shade" package="SOT23" value="2N7002P" x="175.5" y="84" rot="R180"/>
-<element name="R14" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="175.5" y="91" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="215" y="87.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="215" y="87.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="215" y="87.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="215" y="87.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="215" y="87.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="215" y="87.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="215" y="87.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="215" y="87.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="215" y="87.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="215" y="87.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="215" y="87.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="215" y="87.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="215" y="87.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="215" y="87.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="215" y="87.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="215" y="87.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="215" y="87.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="215" y="87.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="215" y="87.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="215" y="87.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="215" y="87.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="215" y="87.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="215" y="87.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="215" y="87.5" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$28" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="175.5" y="88" rot="R90"/>
-<element name="U$29" library="Smile_Shade" package="SOT23" value="2N7002P" x="171" y="84" rot="R180"/>
-<element name="R15" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="171" y="91" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="219.5" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="219.5" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="219.5" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="219.5" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="219.5" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="219.5" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="219.5" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="219.5" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="219.5" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="219.5" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="219.5" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="219.5" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="219.5" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="219.5" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="219.5" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="219.5" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="219.5" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="219.5" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="219.5" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="219.5" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="219.5" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="219.5" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="219.5" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="219.5" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$30" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="171" y="88" rot="R90"/>
-<element name="U$31" library="Smile_Shade" package="SOT23" value="2N7002P" x="166.5" y="84" rot="R180"/>
-<element name="R16" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="166.5" y="91" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="224" y="95.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="224" y="95.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="224" y="95.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="224" y="95.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="224" y="95.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="224" y="95.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="224" y="95.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="224" y="95.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="224" y="95.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="224" y="95.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="224" y="95.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="224" y="95.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="224" y="95.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="224" y="95.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="224" y="95.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="224" y="95.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="224" y="95.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="224" y="95.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="224" y="95.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="224" y="95.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="224" y="95.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="224" y="95.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="224" y="95.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="224" y="95.5" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$32" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="166.5" y="88" rot="R90"/>
-<element name="U$33" library="Smile_Shade" package="SOT23" value="2N7002P" x="157.5" y="84" rot="R180"/>
-<element name="R17" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="157.5" y="91" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="169" y="64" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="169" y="64" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="169" y="64" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="169" y="64" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="169" y="64" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="169" y="64" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="169" y="64" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="169" y="64" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="169" y="64" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="169" y="64" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="169" y="64" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="169" y="64" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="169" y="64" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="169" y="64" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="169" y="64" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="169" y="64" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="169" y="64" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="169" y="64" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="169" y="64" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="169" y="64" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="169" y="64" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="169" y="64" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="169" y="64" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="169" y="64" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$34" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="157.5" y="88" rot="R90"/>
-<element name="U$35" library="Smile_Shade" package="SOT23" value="2N7002P" x="162" y="84" rot="R180"/>
-<element name="R18" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="162" y="91" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="182.5" y="67.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="182.5" y="67.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="182.5" y="67.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="182.5" y="67.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="182.5" y="67.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="182.5" y="67.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="182.5" y="67.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="182.5" y="67.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="182.5" y="67.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="182.5" y="67.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="182.5" y="67.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="182.5" y="67.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="182.5" y="67.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="182.5" y="67.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="182.5" y="67.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="182.5" y="67.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="182.5" y="67.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="182.5" y="67.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="182.5" y="67.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="182.5" y="67.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="182.5" y="67.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="182.5" y="67.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="182.5" y="67.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="182.5" y="67.5" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$40" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="162" y="88" rot="R90"/>
-<element name="U$41" library="Smile_Shade" package="SOT23" value="2N7002P" x="118" y="53" rot="R180"/>
-<element name="R19" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="118" y="60" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="147.5" y="40.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="147.5" y="40.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="147.5" y="40.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="147.5" y="40.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="147.5" y="40.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="147.5" y="40.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="147.5" y="40.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="147.5" y="40.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="147.5" y="40.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="147.5" y="40.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="147.5" y="40.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="147.5" y="40.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="147.5" y="40.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="147.5" y="40.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="147.5" y="40.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="147.5" y="40.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="147.5" y="40.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="147.5" y="40.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="147.5" y="40.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="147.5" y="40.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="147.5" y="40.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="147.5" y="40.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="147.5" y="40.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="147.5" y="40.5" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$45" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="118" y="57" rot="R90"/>
-<element name="U$46" library="Smile_Shade" package="SOT23" value="2N7002P" x="113.5" y="53" rot="R180"/>
-<element name="R20" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="113.5" y="60" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="152" y="44.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="152" y="44.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="152" y="44.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="152" y="44.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="152" y="44.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="152" y="44.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="152" y="44.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="152" y="44.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="152" y="44.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="152" y="44.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="152" y="44.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="152" y="44.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="152" y="44.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="152" y="44.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="152" y="44.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="152" y="44.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="152" y="44.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="152" y="44.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="152" y="44.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="152" y="44.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="152" y="44.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="152" y="44.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="152" y="44.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="152" y="44.5" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$47" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="113.5" y="57" rot="R90"/>
-<element name="U$48" library="Smile_Shade" package="SOT23" value="2N7002P" x="122.5" y="53" rot="R180"/>
-<element name="R21" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="122.5" y="60" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="170" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="170" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="170" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="170" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="170" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="170" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="170" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="170" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="170" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="170" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="170" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="170" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="170" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="170" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="170" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="170" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="170" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="170" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="170" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="170" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="170" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="170" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="170" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="170" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$49" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="122.5" y="57" rot="R90"/>
-<element name="U$50" library="Smile_Shade" package="SOT23" value="2N7002P" x="100" y="53" rot="R180"/>
-<element name="R22" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="100" y="60" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="156.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="156.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="156.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="156.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="156.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="156.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="156.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="156.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="156.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="156.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="156.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="156.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="156.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="156.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="156.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="156.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="156.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="156.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="156.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="156.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="156.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="156.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="156.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="156.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$51" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="100" y="57" rot="R90"/>
-<element name="U$52" library="Smile_Shade" package="SOT23" value="2N7002P" x="104.5" y="53" rot="R180"/>
-<element name="R23" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="104.5" y="60" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="170" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="170" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="170" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="170" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="170" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="170" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="170" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="170" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="170" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="170" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="170" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="170" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="170" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="170" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="170" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="170" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="170" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="170" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="170" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="170" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="170" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="170" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="170" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="170" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$53" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="104.5" y="57" rot="R90"/>
-<element name="U$54" library="Smile_Shade" package="SOT23" value="2N7002P" x="131.5" y="53" rot="R180"/>
-<element name="R24" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="131.5" y="60" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="180" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="180" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="180" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="180" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="180" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="180" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="180" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="180" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="180" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="180" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="180" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="180" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="180" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="180" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="180" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="180" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="180" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="180" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="180" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="180" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="180" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="180" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="180" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="180" y="56.5" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$55" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="131.5" y="57" rot="R90"/>
-<element name="U$56" library="Smile_Shade" package="SOT23" value="2N7002P" x="136" y="53" rot="R180"/>
-<element name="R25" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="136" y="60" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="193.5" y="60.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="193.5" y="60.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="193.5" y="60.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="193.5" y="60.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="193.5" y="60.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="193.5" y="60.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="193.5" y="60.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="193.5" y="60.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="193.5" y="60.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="193.5" y="60.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="193.5" y="60.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="193.5" y="60.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="193.5" y="60.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="193.5" y="60.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="193.5" y="60.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="193.5" y="60.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="193.5" y="60.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="193.5" y="60.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="193.5" y="60.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="193.5" y="60.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="193.5" y="60.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="193.5" y="60.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="193.5" y="60.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="193.5" y="60.5" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$57" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="136" y="57" rot="R90"/>
-<element name="U$58" library="Smile_Shade" package="SOT23" value="2N7002P" x="95.5" y="53" rot="R180"/>
-<element name="R26" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="95.5" y="60" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="162" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="162" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="162" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="162" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="162" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="162" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="162" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="162" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="162" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="162" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="162" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="162" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="162" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="162" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="162" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="162" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="162" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="162" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="162" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="162" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="162" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="162" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="162" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="162" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$59" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="95.5" y="57" rot="R90"/>
-<element name="U$60" library="Smile_Shade" package="SOT23" value="2N7002P" x="154" y="53" rot="R180"/>
-<element name="R27" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="154" y="60" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="229.5" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="229.5" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="229.5" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="229.5" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="229.5" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="229.5" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="229.5" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="229.5" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="229.5" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="229.5" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="229.5" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="229.5" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="229.5" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="229.5" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="229.5" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="229.5" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="229.5" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="229.5" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="229.5" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="229.5" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="229.5" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="229.5" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="229.5" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="229.5" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$61" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="154" y="57" rot="R90"/>
-<element name="U$62" library="Smile_Shade" package="SOT23" value="2N7002P" x="149.5" y="53" rot="R180"/>
-<element name="R28" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="149.5" y="60" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="234" y="72.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="234" y="72.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="234" y="72.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="234" y="72.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="234" y="72.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="234" y="72.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="234" y="72.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="234" y="72.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="234" y="72.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="234" y="72.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="234" y="72.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="234" y="72.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="234" y="72.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="234" y="72.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="234" y="72.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="234" y="72.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="234" y="72.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="234" y="72.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="234" y="72.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="234" y="72.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="234" y="72.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="234" y="72.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="234" y="72.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="234" y="72.5" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$63" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="149.5" y="57" rot="R90"/>
-<element name="U$64" library="Smile_Shade" package="SOT23" value="2N7002P" x="140.5" y="53" rot="R180"/>
-<element name="R29" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="140.5" y="60" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="234" y="76.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="234" y="76.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="234" y="76.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="234" y="76.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="234" y="76.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="234" y="76.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="234" y="76.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="234" y="76.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="234" y="76.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="234" y="76.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="234" y="76.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="234" y="76.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="234" y="76.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="234" y="76.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="234" y="76.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="234" y="76.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="234" y="76.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="234" y="76.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="234" y="76.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="234" y="76.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="234" y="76.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="234" y="76.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="234" y="76.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="234" y="76.5" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$65" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="140.5" y="57" rot="R90"/>
-<element name="U$66" library="Smile_Shade" package="SOT23" value="2N7002P" x="145" y="53" rot="R180"/>
-<element name="R30" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="145" y="60" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="247.5" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="247.5" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="247.5" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="247.5" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="247.5" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="247.5" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="247.5" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="247.5" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="247.5" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="247.5" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="247.5" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="247.5" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="247.5" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="247.5" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="247.5" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="247.5" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="247.5" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="247.5" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="247.5" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="247.5" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="247.5" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="247.5" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="247.5" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="247.5" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$67" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="145" y="57" rot="R90"/>
-<element name="U$68" library="Smile_Shade" package="SOT23" value="2N7002P" x="127" y="53" rot="R180"/>
-<element name="R31" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="127" y="60" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="238.5" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="238.5" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="238.5" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="238.5" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="238.5" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="238.5" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="238.5" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="238.5" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="238.5" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="238.5" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="238.5" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="238.5" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="238.5" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="238.5" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="238.5" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="238.5" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="238.5" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="238.5" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="238.5" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="238.5" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="238.5" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="238.5" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="238.5" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="238.5" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$69" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="127" y="57" rot="R90"/>
-<element name="U$70" library="Smile_Shade" package="SOT23" value="2N7002P" x="109" y="53" rot="R180"/>
-<element name="R32" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="109" y="60" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="205.5" y="85.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="205.5" y="85.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="205.5" y="85.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="205.5" y="85.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="205.5" y="85.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="205.5" y="85.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="205.5" y="85.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="205.5" y="85.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="205.5" y="85.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="205.5" y="85.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="205.5" y="85.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="205.5" y="85.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="205.5" y="85.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="205.5" y="85.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="205.5" y="85.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="205.5" y="85.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="205.5" y="85.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="205.5" y="85.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="205.5" y="85.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="205.5" y="85.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="205.5" y="85.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="205.5" y="85.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="205.5" y="85.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="205.5" y="85.5" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$71" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="109" y="57" rot="R90"/>
-<element name="U$72" library="Smile_Shade" package="SOT23" value="2N7002P" x="158.5" y="53" rot="R180"/>
-<element name="R33" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="158.5" y="60" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="170" y="45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="170" y="45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="170" y="45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="170" y="45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="170" y="45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="170" y="45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="170" y="45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="170" y="45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="170" y="45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="170" y="45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="170" y="45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="170" y="45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="170" y="45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="170" y="45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="170" y="45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="170" y="45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="170" y="45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="170" y="45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="170" y="45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="170" y="45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="170" y="45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="170" y="45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="170" y="45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="170" y="45" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$73" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="158.5" y="57" rot="R90"/>
-<element name="U$74" library="Smile_Shade" package="SOT23" value="2N7002P" x="167.5" y="53" rot="R180"/>
-<element name="R34" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="167.5" y="60" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="188" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="188" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="188" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="188" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="188" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="188" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="188" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="188" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="188" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="188" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="188" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="188" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="188" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="188" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="188" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="188" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="188" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="188" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="188" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="188" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="188" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="188" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="188" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="188" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$75" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="167.5" y="57" rot="R90"/>
-<element name="U$76" library="Smile_Shade" package="SOT23" value="2N7002P" x="163" y="53" rot="R180"/>
-<element name="R35" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="163" y="60" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="181.5" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="181.5" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="181.5" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="181.5" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="181.5" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="181.5" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="181.5" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="181.5" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="181.5" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="181.5" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="181.5" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="181.5" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="181.5" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="181.5" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="181.5" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="181.5" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="181.5" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="181.5" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="181.5" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="181.5" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="181.5" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="181.5" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="181.5" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="181.5" y="48.5" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$77" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="163" y="57" rot="R90"/>
-<element name="U$78" library="Smile_Shade" package="SOT23" value="2N7002P" x="172" y="53" rot="R180"/>
-<element name="R36" library="Smile_Shade" package="RC0603N" value="RC0603FR-0710RL" x="172" y="60" rot="R180">
-<attribute name="CASE" value="0603 1608 metric" x="199.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CATEGORY" value="" x="199.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPOSITION" value="Thick Film" x="199.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" x="199.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" x="199.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" x="199.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" x="199.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FEATURES" value="" x="199.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" x="199.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" x="199.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" x="199.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" x="199.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" x="199.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" x="199.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" x="199.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWERWATTS" value="0.1W 110W" x="199.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" x="199.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" x="199.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCEOHMS" value="10" x="199.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" x="199.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" x="199.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="199.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Yageo" x="199.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGEWORKING" value="50V" x="199.5" y="52.5" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="U$79" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="172" y="57" rot="R90"/>
-<element name="U$80" library="Smile_Shade" package="SFV18R-3STBE1HLF" value="SFV18R-3STBE1HLF" x="-16.5" y="-157.5"/>
+<element name="U$2" library="Smile_Shade" package="SOT26" value="BCR420UW6-7" x="135" y="32" rot="R90"/>
+<element name="U$80" library="Smile_Shade" package="SFV18R-3STBE1HLF" value="SFV18R-3STBE1HLF" x="137" y="31" rot="R180"/>
 </elements>
 <signals>
 <signal name="VBUS">
@@ -2491,11 +1468,10 @@ design rules under a new name.</description>
 <contactref element="U1" pad="16"/>
 <contactref element="U1" pad="17"/>
 <contactref element="U$38" pad="P$1"/>
-<contactref element="R29" pad="1"/>
-<contactref element="U$65" pad="4"/>
-<wire x1="141.45" y1="58.2" x2="141.2747" y2="60" width="0" layer="19" extent="1-1"/>
-<wire x1="151.5" y1="22.62" x2="141.45" y2="58.2" width="0" layer="19" extent="1-1"/>
-<wire x1="59.325" y1="60.775" x2="141.2747" y2="60" width="0" layer="19" extent="1-1"/>
+<contactref element="U$2" pad="4"/>
+<wire x1="135.95" y1="33.2" x2="128.5" y2="53.38" width="0" layer="19" extent="1-1"/>
+<wire x1="135" y1="27" x2="135.95" y2="33.2" width="0" layer="19" extent="1-1"/>
+<wire x1="59.325" y1="60.775" x2="128.5" y2="53.38" width="0" layer="19" extent="1-1"/>
 <wire x1="43.9492" y1="61.3124" x2="59.325" y2="60.775" width="0" layer="19" extent="1-1"/>
 <wire x1="43.9492" y1="69.5928" x2="43.9492" y2="61.3124" width="0" layer="19" extent="1-1"/>
 <wire x1="40.5456" y1="69.5928" x2="43.9492" y2="69.5928" width="0" layer="19" extent="1-1"/>
@@ -2513,17 +1489,16 @@ design rules under a new name.</description>
 <wire x1="29.23" y1="81" x2="40.865" y2="73.125" width="0" layer="19" extent="1-1"/>
 <wire x1="10.95" y1="34" x2="20.456" y2="59.785" width="0" layer="19" extent="1-1"/>
 <wire x1="7" y1="31" x2="10.95" y2="34" width="0" layer="19" extent="1-1"/>
-<wire x1="4.5" y1="30.3" x2="7" y2="31" width="0" layer="19" extent="1-1"/>
-<wire x1="4.5" y1="29.8" x2="4.5" y2="30.3" width="0" layer="19" extent="1-1"/>
-<wire x1="4.5" y1="29.3" x2="4.5" y2="29.8" width="0" layer="19" extent="1-1"/>
-<wire x1="4.5" y1="28.8" x2="4.5" y2="29.3" width="0" layer="19" extent="1-1"/>
-<wire x1="7" y1="25" x2="4.5" y2="28.8" width="0" layer="19" extent="1-1"/>
+<wire x1="4.5" y1="32.8" x2="7" y2="31" width="0" layer="19" extent="1-1"/>
+<wire x1="4.5" y1="33.3" x2="4.5" y2="32.8" width="0" layer="19" extent="1-1"/>
+<wire x1="4.5" y1="33.8" x2="4.5" y2="33.3" width="0" layer="19" extent="1-1"/>
+<wire x1="4.5" y1="34.3" x2="4.5" y2="33.8" width="0" layer="19" extent="1-1"/>
+<wire x1="7" y1="25" x2="7" y2="31" width="0" layer="19" extent="1-1"/>
 <wire x1="7" y1="7" x2="7" y2="25" width="0" layer="19" extent="1-1"/>
 <wire x1="10.95" y1="4" x2="7" y2="7" width="0" layer="19" extent="1-1"/>
 <wire x1="21.11" y1="4" x2="10.95" y2="4" width="0" layer="19" extent="1-1"/>
 <wire x1="23.65" y1="4" x2="21.11" y2="4" width="0" layer="19" extent="1-1"/>
 <wire x1="52.5" y1="7" x2="23.65" y2="4" width="0" layer="19" extent="1-1"/>
-<wire x1="234" y1="85" x2="141.2747" y2="60" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V">
 <contactref element="U$36" pad="2"/>
@@ -2546,152 +1521,62 @@ design rules under a new name.</description>
 <contactref element="U$2" pad="3"/>
 <contactref element="U$2" pad="2"/>
 <contactref element="U$2" pad="5"/>
-<wire x1="234.95" y1="86.8" x2="234" y2="86.8" width="0.254" layer="1"/>
-<wire x1="234" y1="86.8" x2="234" y2="89.2" width="0" layer="19" extent="1-1"/>
-<wire x1="169" y1="98" x2="234" y2="89.2" width="0" layer="19" extent="1-1"/>
+<wire x1="135.95" y1="30.8" x2="152" y2="31" width="0" layer="19" extent="1-1"/>
+<wire x1="135" y1="30.8" x2="135.95" y2="30.8" width="0" layer="19" extent="1-1"/>
+<wire x1="135" y1="33.2" x2="135" y2="30.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="48V">
 <contactref element="C2" pad="1"/>
 </signal>
 <signal name="LEDSTR_2">
 <contactref element="U$44" pad="P$2"/>
-<contactref element="U$4" pad="3"/>
-<contactref element="U$4" pad="2"/>
-<contactref element="U$4" pad="5"/>
-<wire x1="229.5" y1="86.8" x2="229.5" y2="89.2" width="0" layer="19" extent="1-1"/>
-<wire x1="230.45" y1="86.8" x2="229.5" y2="86.8" width="0" layer="19" extent="1-1"/>
-<wire x1="168.5" y1="98" x2="229.5" y2="89.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LEDSTR_3">
 <contactref element="U$44" pad="P$3"/>
-<contactref element="U$6" pad="3"/>
-<contactref element="U$6" pad="2"/>
-<contactref element="U$6" pad="5"/>
-<wire x1="225" y1="86.8" x2="225" y2="89.2" width="0" layer="19" extent="1-1"/>
-<wire x1="225.95" y1="86.8" x2="225" y2="86.8" width="0" layer="19" extent="1-1"/>
-<wire x1="168" y1="98" x2="225" y2="89.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LEDSTR_4">
 <contactref element="U$44" pad="P$4"/>
-<contactref element="U$8" pad="3"/>
-<contactref element="U$8" pad="2"/>
-<contactref element="U$8" pad="5"/>
-<wire x1="220.5" y1="86.8" x2="221.45" y2="86.8" width="0" layer="19" extent="1-1"/>
-<wire x1="220.5" y1="89.2" x2="220.5" y2="86.8" width="0" layer="19" extent="1-1"/>
-<wire x1="167.5" y1="98" x2="220.5" y2="89.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LEDSTR_5">
 <contactref element="U$44" pad="P$7"/>
-<contactref element="U$10" pad="3"/>
-<contactref element="U$10" pad="2"/>
-<contactref element="U$10" pad="5"/>
-<wire x1="211.5" y1="86.8" x2="211.5" y2="89.2" width="0" layer="19" extent="1-1"/>
-<wire x1="212.45" y1="86.8" x2="211.5" y2="86.8" width="0" layer="19" extent="1-1"/>
-<wire x1="166" y1="98" x2="211.5" y2="89.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LEDSTR_6">
 <contactref element="U$44" pad="P$6"/>
-<contactref element="U$12" pad="3"/>
-<contactref element="U$12" pad="2"/>
-<contactref element="U$12" pad="5"/>
-<wire x1="207" y1="86.8" x2="207" y2="89.2" width="0" layer="19" extent="1-1"/>
-<wire x1="207.95" y1="86.8" x2="207" y2="86.8" width="0" layer="19" extent="1-1"/>
-<wire x1="166.5" y1="98" x2="207" y2="89.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LEDSTR_7">
 <contactref element="U$44" pad="P$5"/>
-<contactref element="U$14" pad="3"/>
-<contactref element="U$14" pad="2"/>
-<contactref element="U$14" pad="5"/>
-<wire x1="216" y1="86.8" x2="216" y2="89.2" width="0" layer="19" extent="1-1"/>
-<wire x1="216.95" y1="86.8" x2="216" y2="86.8" width="0" layer="19" extent="1-1"/>
-<wire x1="167" y1="98" x2="216" y2="89.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LEDSTR_8">
 <contactref element="U$44" pad="P$8"/>
-<contactref element="U$16" pad="3"/>
-<contactref element="U$16" pad="2"/>
-<contactref element="U$16" pad="5"/>
-<wire x1="202.5" y1="86.8" x2="203.45" y2="86.8" width="0" layer="19" extent="1-1"/>
-<wire x1="202.5" y1="89.2" x2="202.5" y2="86.8" width="0" layer="19" extent="1-1"/>
-<wire x1="165.5" y1="98" x2="202.5" y2="89.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LEDSTR_9">
 <contactref element="U$44" pad="P$9"/>
-<contactref element="U$18" pad="3"/>
-<contactref element="U$18" pad="2"/>
-<contactref element="U$18" pad="5"/>
-<wire x1="198" y1="86.8" x2="198.95" y2="86.8" width="0" layer="19" extent="1-1"/>
-<wire x1="198" y1="89.2" x2="198" y2="86.8" width="0" layer="19" extent="1-1"/>
-<wire x1="165" y1="98" x2="198" y2="89.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LEDSTR_10">
 <contactref element="U$44" pad="P$10"/>
-<contactref element="U$20" pad="3"/>
-<contactref element="U$20" pad="2"/>
-<contactref element="U$20" pad="5"/>
-<wire x1="193.5" y1="86.8" x2="193.5" y2="89.2" width="0" layer="19" extent="1-1"/>
-<wire x1="194.45" y1="86.8" x2="193.5" y2="86.8" width="0" layer="19" extent="1-1"/>
-<wire x1="164.5" y1="98" x2="193.5" y2="89.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LEDSTR_11">
 <contactref element="U$44" pad="P$11"/>
-<contactref element="U$22" pad="3"/>
-<contactref element="U$22" pad="2"/>
-<contactref element="U$22" pad="5"/>
-<wire x1="189" y1="86.8" x2="189" y2="89.2" width="0" layer="19" extent="1-1"/>
-<wire x1="189.95" y1="86.8" x2="189" y2="86.8" width="0" layer="19" extent="1-1"/>
-<wire x1="164" y1="98" x2="189" y2="89.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LEDSTR_12">
 <contactref element="U$44" pad="P$12"/>
-<contactref element="U$24" pad="3"/>
-<contactref element="U$24" pad="2"/>
-<contactref element="U$24" pad="5"/>
-<wire x1="184.5" y1="86.8" x2="185.45" y2="86.8" width="0" layer="19" extent="1-1"/>
-<wire x1="184.5" y1="89.2" x2="184.5" y2="86.8" width="0" layer="19" extent="1-1"/>
-<wire x1="163.5" y1="98" x2="184.5" y2="89.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LEDSTR_13">
 <contactref element="U$44" pad="P$13"/>
-<contactref element="U$26" pad="3"/>
-<contactref element="U$26" pad="2"/>
-<contactref element="U$26" pad="5"/>
-<wire x1="180" y1="86.8" x2="180.95" y2="86.8" width="0" layer="19" extent="1-1"/>
-<wire x1="180" y1="89.2" x2="180" y2="86.8" width="0" layer="19" extent="1-1"/>
-<wire x1="163" y1="98" x2="180" y2="89.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LEDSTR_14">
 <contactref element="U$44" pad="P$14"/>
-<contactref element="U$28" pad="3"/>
-<contactref element="U$28" pad="2"/>
-<contactref element="U$28" pad="5"/>
-<wire x1="175.5" y1="86.8" x2="175.5" y2="89.2" width="0" layer="19" extent="1-1"/>
-<wire x1="176.45" y1="86.8" x2="175.5" y2="86.8" width="0" layer="19" extent="1-1"/>
-<wire x1="162.5" y1="98" x2="175.5" y2="89.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LEDSTR_15">
 <contactref element="U$44" pad="P$15"/>
-<contactref element="U$30" pad="3"/>
-<contactref element="U$30" pad="2"/>
-<contactref element="U$30" pad="5"/>
-<wire x1="171" y1="86.8" x2="171" y2="89.2" width="0" layer="19" extent="1-1"/>
-<wire x1="171.95" y1="86.8" x2="171" y2="86.8" width="0" layer="19" extent="1-1"/>
-<wire x1="162" y1="98" x2="171" y2="89.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LEDSTR_16">
 <contactref element="U$44" pad="P$16"/>
-<contactref element="U$32" pad="3"/>
-<contactref element="U$32" pad="2"/>
-<contactref element="U$32" pad="5"/>
-<wire x1="166.5" y1="86.8" x2="167.45" y2="86.8" width="0" layer="19" extent="1-1"/>
-<wire x1="166.5" y1="89.2" x2="166.5" y2="86.8" width="0" layer="19" extent="1-1"/>
-<wire x1="161.5" y1="98" x2="166.5" y2="89.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="M1B">
 <contactref element="SL3" pad="9"/>
 <contactref element="U1" pad="8"/>
-<wire x1="34.675" y1="56.8137" x2="151.5" y2="4.84" width="0" layer="19" extent="1-1"/>
+<wire x1="34.675" y1="56.8137" x2="128.5" y2="71.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="M2A">
 <contactref element="SL1" pad="1"/>
@@ -2716,82 +1601,52 @@ design rules under a new name.</description>
 <signal name="ZN0">
 <contactref element="U$37" pad="P$13"/>
 <contactref element="U$38" pad="P$2"/>
-<wire x1="234.95" y1="83" x2="58.675" y2="60.775" width="0" layer="19" extent="1-1"/>
+<wire x1="58.675" y1="60.775" x2="134.05" y2="29" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ZN1">
 <contactref element="U$37" pad="P$12"/>
-<contactref element="U$3" pad="P$2"/>
-<wire x1="230.45" y1="83" x2="58.025" y2="60.775" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ZN2">
 <contactref element="U$37" pad="P$11"/>
-<contactref element="U$5" pad="P$2"/>
-<wire x1="225.95" y1="83" x2="57.375" y2="60.775" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ZN3">
 <contactref element="U$37" pad="P$10"/>
-<contactref element="U$7" pad="P$2"/>
-<wire x1="221.45" y1="83" x2="56.725" y2="60.775" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ZN4">
 <contactref element="U$37" pad="P$9"/>
-<contactref element="U$9" pad="P$2"/>
-<wire x1="212.45" y1="83" x2="56.075" y2="60.775" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ZN5">
 <contactref element="U$37" pad="P$8"/>
-<contactref element="U$11" pad="P$2"/>
-<wire x1="207.95" y1="83" x2="55.425" y2="60.775" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ZN6">
 <contactref element="U$37" pad="P$7"/>
-<contactref element="U$13" pad="P$2"/>
-<wire x1="216.95" y1="83" x2="54.775" y2="60.775" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ZN7">
 <contactref element="U$37" pad="P$6"/>
-<contactref element="U$15" pad="P$2"/>
-<wire x1="203.45" y1="83" x2="54.125" y2="60.775" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ZN10">
 <contactref element="U$37" pad="P$17"/>
-<contactref element="U$21" pad="P$2"/>
-<wire x1="189.95" y1="83" x2="52.075" y2="67.225" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ZN9">
 <contactref element="U$37" pad="P$16"/>
-<contactref element="U$19" pad="P$2"/>
-<wire x1="194.45" y1="83" x2="51.425" y2="67.225" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ZN8">
 <contactref element="U$37" pad="P$15"/>
-<contactref element="U$17" pad="P$2"/>
-<wire x1="198.95" y1="83" x2="50.775" y2="67.225" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ZN11">
 <contactref element="U$37" pad="P$18"/>
-<contactref element="U$23" pad="P$2"/>
-<wire x1="185.45" y1="83" x2="52.725" y2="67.225" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ZN12">
 <contactref element="U$37" pad="P$19"/>
-<contactref element="U$25" pad="P$2"/>
-<wire x1="180.95" y1="83" x2="53.375" y2="67.225" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ZN13">
 <contactref element="U$37" pad="P$20"/>
-<contactref element="U$27" pad="P$2"/>
-<wire x1="176.45" y1="83" x2="54.025" y2="67.225" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ZN14">
 <contactref element="U$37" pad="P$21"/>
-<contactref element="U$29" pad="P$2"/>
-<wire x1="54.675" y1="67.225" x2="171.95" y2="83" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ZN15">
 <contactref element="U$37" pad="P$22"/>
-<contactref element="U$31" pad="P$2"/>
-<wire x1="55.325" y1="67.225" x2="167.45" y2="83" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDA">
 <contactref element="U$37" pad="P$27"/>
@@ -2811,31 +1666,19 @@ design rules under a new name.</description>
 <signal name="M1A">
 <contactref element="SL3" pad="8"/>
 <contactref element="U1" pad="3"/>
-<wire x1="28.325" y1="56.8137" x2="151.5" y2="7.38" width="0" layer="19" extent="1-1"/>
+<wire x1="28.325" y1="56.8137" x2="128.5" y2="68.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LEDSTR_17">
 <contactref element="U$44" pad="P$18"/>
-<contactref element="U$34" pad="3"/>
-<contactref element="U$34" pad="2"/>
-<contactref element="U$34" pad="5"/>
-<wire x1="157.5" y1="86.8" x2="157.5" y2="89.2" width="0" layer="19" extent="1-1"/>
-<wire x1="158.45" y1="86.8" x2="157.5" y2="86.8" width="0" layer="19" extent="1-1"/>
-<wire x1="160.5" y1="98" x2="157.5" y2="89.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LEDSTR_18">
 <contactref element="U$44" pad="P$17"/>
-<contactref element="U$40" pad="3"/>
-<contactref element="U$40" pad="2"/>
-<contactref element="U$40" pad="5"/>
-<wire x1="162" y1="86.8" x2="162.95" y2="86.8" width="0" layer="19" extent="1-1"/>
-<wire x1="162" y1="89.2" x2="162" y2="86.8" width="0" layer="19" extent="1-1"/>
-<wire x1="161" y1="98" x2="162" y2="89.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VIN">
 <contactref element="U$1" pad="CHG-IN"/>
 <contactref element="SL3" pad="1"/>
 <contactref element="U$42" pad="P$3"/>
-<wire x1="40.865" y1="78.875" x2="151.5" y2="25.16" width="0" layer="19" extent="1-1"/>
+<wire x1="40.865" y1="78.875" x2="128.5" y2="50.84" width="0" layer="19" extent="1-1"/>
 <wire x1="18.57" y1="4" x2="40.865" y2="78.875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ENC1">
@@ -2856,8 +1699,8 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="VCC3V3"/>
 <contactref element="SL1" pad="3"/>
 <contactref element="SL3" pad="7"/>
-<wire x1="13.49" y1="4" x2="151.5" y2="9.92" width="0" layer="19" extent="1-1"/>
-<wire x1="31.77" y1="81" x2="13.49" y2="4" width="0" layer="19" extent="1-1"/>
+<wire x1="31.77" y1="81" x2="128.5" y2="66.08" width="0" layer="19" extent="1-1"/>
+<wire x1="13.49" y1="4" x2="31.77" y2="81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ENCOUT">
 <contactref element="IC3" pad="5"/>
@@ -2872,22 +1715,22 @@ design rules under a new name.</description>
 <signal name="ENDSTOP1">
 <contactref element="U$1" pad="CSID1"/>
 <contactref element="SL3" pad="4"/>
-<wire x1="33.81" y1="34" x2="151.5" y2="17.54" width="0" layer="19" extent="1-1"/>
+<wire x1="33.81" y1="34" x2="128.5" y2="58.46" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ENDSTOP2">
 <contactref element="U$1" pad="CSID2"/>
 <contactref element="SL3" pad="5"/>
-<wire x1="36.35" y1="34" x2="151.5" y2="15" width="0" layer="19" extent="1-1"/>
+<wire x1="36.35" y1="34" x2="128.5" y2="61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ENDSTOP3">
 <contactref element="U$1" pad="CSID3"/>
 <contactref element="SL3" pad="6"/>
-<wire x1="38.89" y1="34" x2="151.5" y2="12.46" width="0" layer="19" extent="1-1"/>
+<wire x1="38.89" y1="34" x2="128.5" y2="63.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ENDSTOP0">
 <contactref element="U$1" pad="CSID0"/>
 <contactref element="SL3" pad="3"/>
-<wire x1="31.27" y1="34" x2="151.5" y2="20.08" width="0" layer="19" extent="1-1"/>
+<wire x1="31.27" y1="34" x2="128.5" y2="55.92" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="IC3" pad="8"/>
@@ -2911,17 +1754,17 @@ design rules under a new name.</description>
 <signal name="N$39">
 <contactref element="U$1" pad="AGND"/>
 <contactref element="SL4" pad="3"/>
-<wire x1="52.5" y1="25" x2="146.5" y2="2.46" width="0" layer="19" extent="1-1"/>
+<wire x1="52.5" y1="25" x2="120.5" y2="56.46" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$40">
 <contactref element="U$1" pad="MICIN1"/>
 <contactref element="SL4" pad="2"/>
-<wire x1="52.5" y1="27" x2="146.5" y2="5" width="0" layer="19" extent="1-1"/>
+<wire x1="52.5" y1="27" x2="120.5" y2="59" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$41">
 <contactref element="U$1" pad="MICIN2"/>
 <contactref element="SL4" pad="1"/>
-<wire x1="52.5" y1="29" x2="146.5" y2="7.54" width="0" layer="19" extent="1-1"/>
+<wire x1="52.5" y1="29" x2="120.5" y2="61.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="M2">
 <contactref element="U1" pad="11"/>
@@ -2946,833 +1789,10 @@ design rules under a new name.</description>
 <signal name="VCC">
 <contactref element="U1" pad="10"/>
 </signal>
-<signal name="N$15">
-<contactref element="U$2" pad="6"/>
-<contactref element="R8" pad="2"/>
-<wire x1="233.2253" y1="91" x2="233.05" y2="89.2" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$42">
-<contactref element="R8" pad="1"/>
-<contactref element="U$2" pad="4"/>
-<wire x1="234.95" y1="89.2" x2="234.7747" y2="91" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="GND1">
-<contactref element="U$3" pad="P$1"/>
-</signal>
-<signal name="N$1">
-<contactref element="U$4" pad="6"/>
-<contactref element="R1" pad="2"/>
-<wire x1="228.55" y1="89.2" x2="228.7253" y2="91" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$3">
-<contactref element="R1" pad="1"/>
-<contactref element="U$4" pad="4"/>
-<wire x1="230.45" y1="89.2" x2="230.2747" y2="91" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="GND2">
-<contactref element="U$5" pad="P$1"/>
-</signal>
-<signal name="N$5">
-<contactref element="U$6" pad="6"/>
-<contactref element="R2" pad="2"/>
-<wire x1="224.2253" y1="91" x2="224.05" y2="89.2" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$7">
-<contactref element="R2" pad="1"/>
-<contactref element="U$6" pad="4"/>
-<wire x1="225.95" y1="89.2" x2="225.7747" y2="91" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="GND3">
-<contactref element="U$7" pad="P$1"/>
-</signal>
-<signal name="N$9">
-<contactref element="U$8" pad="6"/>
-<contactref element="R3" pad="2"/>
-<wire x1="219.7253" y1="91" x2="219.55" y2="89.2" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$11">
-<contactref element="R3" pad="1"/>
-<contactref element="U$8" pad="4"/>
-<wire x1="221.45" y1="89.2" x2="221.2747" y2="91" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="GND4">
-<contactref element="U$9" pad="P$1"/>
-</signal>
-<signal name="N$13">
-<contactref element="U$10" pad="6"/>
-<contactref element="R4" pad="2"/>
-<wire x1="210.7253" y1="91" x2="210.55" y2="89.2" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$17">
-<contactref element="R4" pad="1"/>
-<contactref element="U$10" pad="4"/>
-<wire x1="212.45" y1="89.2" x2="212.2747" y2="91" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="GND5">
-<contactref element="U$11" pad="P$1"/>
-</signal>
-<signal name="N$19">
-<contactref element="U$12" pad="6"/>
-<contactref element="R5" pad="2"/>
-<wire x1="206.2253" y1="91" x2="206.05" y2="89.2" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$21">
-<contactref element="R5" pad="1"/>
-<contactref element="U$12" pad="4"/>
-<wire x1="207.95" y1="89.2" x2="207.7747" y2="91" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="GND6">
-<contactref element="U$13" pad="P$1"/>
-</signal>
-<signal name="N$23">
-<contactref element="U$14" pad="6"/>
-<contactref element="R6" pad="2"/>
-<wire x1="215.2253" y1="91" x2="215.05" y2="89.2" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$25">
-<contactref element="R6" pad="1"/>
-<contactref element="U$14" pad="4"/>
-<wire x1="216.95" y1="89.2" x2="216.7747" y2="91" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="GND7">
-<contactref element="U$15" pad="P$1"/>
-</signal>
-<signal name="N$27">
-<contactref element="U$16" pad="6"/>
-<contactref element="R7" pad="2"/>
-<wire x1="201.7253" y1="91" x2="201.55" y2="89.2" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$29">
-<contactref element="R7" pad="1"/>
-<contactref element="U$16" pad="4"/>
-<wire x1="203.45" y1="89.2" x2="203.2747" y2="91" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="GND8">
-<contactref element="U$17" pad="P$1"/>
-</signal>
-<signal name="N$31">
-<contactref element="U$18" pad="6"/>
-<contactref element="R9" pad="2"/>
-<wire x1="197.2253" y1="91" x2="197.05" y2="89.2" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$35">
-<contactref element="R9" pad="1"/>
-<contactref element="U$18" pad="4"/>
-<wire x1="198.95" y1="89.2" x2="198.7747" y2="91" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="GND9">
-<contactref element="U$19" pad="P$1"/>
-</signal>
-<signal name="N$37">
-<contactref element="U$20" pad="6"/>
-<contactref element="R10" pad="2"/>
-<wire x1="192.7253" y1="91" x2="192.55" y2="91" width="0.254" layer="1"/>
-<wire x1="192.7253" y1="91" x2="192.55" y2="89.2" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$44">
-<contactref element="R10" pad="1"/>
-<contactref element="U$20" pad="4"/>
-<wire x1="194.2747" y1="91" x2="194.45" y2="91" width="0.254" layer="1"/>
-<wire x1="194.2747" y1="91" x2="194.45" y2="89.2" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ZN24">
-<contactref element="U$57" pad="1"/>
-<contactref element="U$56" pad="P$3"/>
-<wire x1="135.05" y1="52" x2="135.05" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="GND10">
-<contactref element="U$21" pad="P$1"/>
-</signal>
-<signal name="N$46">
-<contactref element="U$22" pad="6"/>
-<contactref element="R11" pad="2"/>
-<wire x1="188.2253" y1="91" x2="188.05" y2="89.2" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$48">
-<contactref element="R11" pad="1"/>
-<contactref element="U$22" pad="4"/>
-<wire x1="189.95" y1="89.2" x2="189.7747" y2="91" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ZN25">
-<contactref element="U$59" pad="1"/>
-<contactref element="U$58" pad="P$3"/>
-<wire x1="94.55" y1="52" x2="94.55" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="GND11">
-<contactref element="U$23" pad="P$1"/>
-</signal>
-<signal name="N$50">
-<contactref element="U$24" pad="6"/>
-<contactref element="R12" pad="2"/>
-<wire x1="183.7253" y1="91" x2="183.55" y2="89.2" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$52">
-<contactref element="R12" pad="1"/>
-<contactref element="U$24" pad="4"/>
-<wire x1="185.2747" y1="91" x2="185.45" y2="89.2" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ZN26">
-<contactref element="U$61" pad="1"/>
-<contactref element="U$60" pad="P$3"/>
-<wire x1="153.05" y1="52" x2="153.05" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="GND12">
-<contactref element="U$25" pad="P$1"/>
-</signal>
-<signal name="N$54">
-<contactref element="U$26" pad="6"/>
-<contactref element="R13" pad="2"/>
-<wire x1="179.2253" y1="91" x2="179.05" y2="89.2" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$56">
-<contactref element="R13" pad="1"/>
-<contactref element="U$26" pad="4"/>
-<wire x1="180.95" y1="89.2" x2="180.7747" y2="91" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ZN27">
-<contactref element="U$63" pad="1"/>
-<contactref element="U$62" pad="P$3"/>
-<wire x1="148.55" y1="52" x2="148.55" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="GND13">
-<contactref element="U$27" pad="P$1"/>
-</signal>
-<signal name="N$58">
-<contactref element="U$28" pad="6"/>
-<contactref element="R14" pad="2"/>
-<wire x1="174.7253" y1="91" x2="174.55" y2="89.2" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$60">
-<contactref element="R14" pad="1"/>
-<contactref element="U$28" pad="4"/>
-<wire x1="176.45" y1="89.2" x2="176.2747" y2="91" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="GND14">
-<contactref element="U$29" pad="P$1"/>
-</signal>
-<signal name="N$62">
-<contactref element="U$30" pad="6"/>
-<contactref element="R15" pad="2"/>
-<wire x1="170.05" y1="89.2" x2="170.2253" y2="91" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$64">
-<contactref element="R15" pad="1"/>
-<contactref element="U$30" pad="4"/>
-<wire x1="171.95" y1="89.2" x2="171.7747" y2="91" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="GND15">
-<contactref element="U$31" pad="P$1"/>
-</signal>
-<signal name="N$66">
-<contactref element="U$32" pad="6"/>
-<contactref element="R16" pad="2"/>
-<wire x1="165.7253" y1="91" x2="165.55" y2="89.2" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$68">
-<contactref element="R16" pad="1"/>
-<contactref element="U$32" pad="4"/>
-<wire x1="167.45" y1="89.2" x2="167.2747" y2="91" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="GND16">
-<contactref element="U$33" pad="P$1"/>
-</signal>
-<signal name="N$70">
-<contactref element="U$34" pad="6"/>
-<contactref element="R17" pad="2"/>
-<wire x1="156.7253" y1="91" x2="156.55" y2="89.2" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$72">
-<contactref element="R17" pad="1"/>
-<contactref element="U$34" pad="4"/>
-<wire x1="158.45" y1="89.2" x2="158.2747" y2="91" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ZN16">
-<contactref element="U$33" pad="P$2"/>
-</signal>
-<signal name="GND17">
-<contactref element="U$35" pad="P$1"/>
-</signal>
-<signal name="N$74">
-<contactref element="U$40" pad="6"/>
-<contactref element="R18" pad="2"/>
-<wire x1="161.2253" y1="91" x2="161.05" y2="89.2" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$76">
-<contactref element="R18" pad="1"/>
-<contactref element="U$40" pad="4"/>
-<wire x1="162.95" y1="89.2" x2="162.7747" y2="91" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ZN17">
-<contactref element="U$35" pad="P$2"/>
-</signal>
-<signal name="GND18">
-<contactref element="U$41" pad="P$1"/>
-</signal>
-<signal name="N$78">
-<contactref element="U$45" pad="6"/>
-<contactref element="R19" pad="2"/>
-<wire x1="117.05" y1="58.2" x2="117.2253" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="LEDSTR_19">
-<contactref element="U$45" pad="3"/>
-<contactref element="U$45" pad="2"/>
-<contactref element="U$45" pad="5"/>
-<wire x1="118" y1="55.8" x2="118" y2="58.2" width="0" layer="19" extent="1-1"/>
-<wire x1="118.95" y1="55.8" x2="118" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$80">
-<contactref element="R19" pad="1"/>
-<contactref element="U$45" pad="4"/>
-<wire x1="118.95" y1="58.2" x2="118.7747" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ZN33">
-<contactref element="U$41" pad="P$2"/>
-</signal>
-<signal name="GND19">
-<contactref element="U$46" pad="P$1"/>
-</signal>
-<signal name="N$82">
-<contactref element="U$47" pad="6"/>
-<contactref element="R20" pad="2"/>
-<wire x1="112.55" y1="58.2" x2="112.7253" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="LEDSTR_20">
-<contactref element="U$47" pad="3"/>
-<contactref element="U$47" pad="2"/>
-<contactref element="U$47" pad="5"/>
-<wire x1="113.5" y1="55.8" x2="114.45" y2="55.8" width="0" layer="19" extent="1-1"/>
-<wire x1="113.5" y1="58.2" x2="113.5" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$84">
-<contactref element="R20" pad="1"/>
-<contactref element="U$47" pad="4"/>
-<wire x1="114.45" y1="58.2" x2="114.2747" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ZN34">
-<contactref element="U$46" pad="P$2"/>
-</signal>
-<signal name="GND20">
-<contactref element="U$48" pad="P$1"/>
-</signal>
-<signal name="N$86">
-<contactref element="U$49" pad="6"/>
-<contactref element="R21" pad="2"/>
-<wire x1="121.55" y1="58.2" x2="121.7253" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="LEDSTR_21">
-<contactref element="U$49" pad="3"/>
-<contactref element="U$49" pad="2"/>
-<contactref element="U$49" pad="5"/>
-<wire x1="122.5" y1="55.8" x2="122.5" y2="58.2" width="0" layer="19" extent="1-1"/>
-<wire x1="123.45" y1="55.8" x2="122.5" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$88">
-<contactref element="R21" pad="1"/>
-<contactref element="U$49" pad="4"/>
-<wire x1="123.45" y1="58.2" x2="123.2747" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ZN35">
-<contactref element="U$48" pad="P$2"/>
-</signal>
-<signal name="GND21">
-<contactref element="U$50" pad="P$1"/>
-</signal>
-<signal name="N$90">
-<contactref element="U$51" pad="6"/>
-<contactref element="R22" pad="2"/>
-<wire x1="99.05" y1="58.2" x2="99.2253" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="LEDSTR_22">
-<contactref element="U$51" pad="3"/>
-<contactref element="U$51" pad="2"/>
-<contactref element="U$51" pad="5"/>
-<wire x1="100" y1="55.8" x2="100" y2="58.2" width="0" layer="19" extent="1-1"/>
-<wire x1="100.95" y1="55.8" x2="100" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$92">
-<contactref element="R22" pad="1"/>
-<contactref element="U$51" pad="4"/>
-<wire x1="100.95" y1="58.2" x2="100.7747" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ZN36">
-<contactref element="U$50" pad="P$2"/>
-</signal>
-<signal name="GND22">
-<contactref element="U$52" pad="P$1"/>
-</signal>
-<signal name="N$94">
-<contactref element="U$53" pad="6"/>
-<contactref element="R23" pad="2"/>
-<wire x1="103.55" y1="58.2" x2="103.7253" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="LEDSTR_23">
-<contactref element="U$53" pad="3"/>
-<contactref element="U$53" pad="2"/>
-<contactref element="U$53" pad="5"/>
-<wire x1="104.5" y1="55.8" x2="104.5" y2="58.2" width="0" layer="19" extent="1-1"/>
-<wire x1="105.45" y1="55.8" x2="104.5" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$96">
-<contactref element="R23" pad="1"/>
-<contactref element="U$53" pad="4"/>
-<wire x1="105.45" y1="58.2" x2="105.2747" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ZN37">
-<contactref element="U$52" pad="P$2"/>
-</signal>
-<signal name="GND23">
-<contactref element="U$54" pad="P$1"/>
-</signal>
-<signal name="N$98">
-<contactref element="U$55" pad="6"/>
-<contactref element="R24" pad="2"/>
-<wire x1="130.55" y1="58.2" x2="130.7253" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="LEDSTR_24">
-<contactref element="U$55" pad="3"/>
-<contactref element="U$55" pad="2"/>
-<contactref element="U$55" pad="5"/>
-<wire x1="131.5" y1="55.8" x2="132.45" y2="55.8" width="0" layer="19" extent="1-1"/>
-<wire x1="131.5" y1="58.2" x2="131.5" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$100">
-<contactref element="R24" pad="1"/>
-<contactref element="U$55" pad="4"/>
-<wire x1="132.45" y1="58.2" x2="132.2747" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ZN38">
-<contactref element="U$54" pad="P$2"/>
-</signal>
-<signal name="GND24">
-<contactref element="U$56" pad="P$1"/>
-</signal>
-<signal name="N$102">
-<contactref element="U$57" pad="6"/>
-<contactref element="R25" pad="2"/>
-<wire x1="135.05" y1="58.2" x2="135.2253" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="LEDSTR_25">
-<contactref element="U$57" pad="3"/>
-<contactref element="U$57" pad="2"/>
-<contactref element="U$57" pad="5"/>
-<wire x1="136" y1="55.8" x2="136" y2="58.2" width="0" layer="19" extent="1-1"/>
-<wire x1="136.95" y1="55.8" x2="136" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$104">
-<contactref element="R25" pad="1"/>
-<contactref element="U$57" pad="4"/>
-<wire x1="136.95" y1="58.2" x2="136.7747" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ZN39">
-<contactref element="U$56" pad="P$2"/>
-</signal>
-<signal name="GND25">
-<contactref element="U$58" pad="P$1"/>
-</signal>
-<signal name="N$106">
-<contactref element="U$59" pad="6"/>
-<contactref element="R26" pad="2"/>
-<wire x1="94.55" y1="58.2" x2="94.7253" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$108">
-<contactref element="R26" pad="1"/>
-<contactref element="U$59" pad="4"/>
-<wire x1="96.45" y1="58.2" x2="96.2747" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ZN40">
-<contactref element="U$58" pad="P$2"/>
-</signal>
-<signal name="GND26">
-<contactref element="U$60" pad="P$1"/>
-</signal>
-<signal name="N$110">
-<contactref element="U$61" pad="6"/>
-<contactref element="R27" pad="2"/>
-<wire x1="153.05" y1="58.2" x2="153.2253" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="LEDSTR_26">
-<contactref element="U$59" pad="3"/>
-<contactref element="U$59" pad="2"/>
-<contactref element="U$59" pad="5"/>
-<wire x1="95.5" y1="55.8" x2="95.5" y2="58.2" width="0" layer="19" extent="1-1"/>
-<wire x1="96.45" y1="55.8" x2="95.5" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$112">
-<contactref element="R27" pad="1"/>
-<contactref element="U$61" pad="4"/>
-<wire x1="154.95" y1="58.2" x2="154.7747" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ZN41">
-<contactref element="U$60" pad="P$2"/>
-</signal>
-<signal name="GND27">
-<contactref element="U$62" pad="P$1"/>
-</signal>
-<signal name="N$114">
-<contactref element="U$63" pad="6"/>
-<contactref element="R28" pad="2"/>
-<wire x1="148.55" y1="58.2" x2="148.7253" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="LEDSTR_27">
-<contactref element="U$61" pad="3"/>
-<contactref element="U$61" pad="2"/>
-<contactref element="U$61" pad="5"/>
-<wire x1="154" y1="55.8" x2="154.95" y2="55.8" width="0" layer="19" extent="1-1"/>
-<wire x1="154" y1="58.2" x2="154" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$116">
-<contactref element="R28" pad="1"/>
-<contactref element="U$63" pad="4"/>
-<wire x1="150.45" y1="58.2" x2="150.2747" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ZN42">
-<contactref element="U$62" pad="P$2"/>
-</signal>
-<signal name="GND28">
-<contactref element="U$64" pad="P$1"/>
-</signal>
-<signal name="N$118">
-<contactref element="U$65" pad="6"/>
-<contactref element="R29" pad="2"/>
-<wire x1="139.55" y1="58.2" x2="139.7253" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="LEDSTR_29">
-<contactref element="U$65" pad="3"/>
-<contactref element="U$65" pad="2"/>
-<contactref element="U$65" pad="5"/>
-<wire x1="140.5" y1="55.8" x2="140.5" y2="58.2" width="0" layer="19" extent="1-1"/>
-<wire x1="141.45" y1="55.8" x2="140.5" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="LEDSTR_28">
-<contactref element="U$63" pad="3"/>
-<contactref element="U$63" pad="2"/>
-<contactref element="U$63" pad="5"/>
-<wire x1="149.5" y1="55.8" x2="150.45" y2="55.8" width="0" layer="19" extent="1-1"/>
-<wire x1="149.5" y1="58.2" x2="149.5" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ZN43">
-<contactref element="U$64" pad="P$2"/>
-</signal>
-<signal name="GND29">
-<contactref element="U$66" pad="P$1"/>
-</signal>
-<signal name="N$122">
-<contactref element="U$67" pad="6"/>
-<contactref element="R30" pad="2"/>
-<wire x1="144.05" y1="58.2" x2="144.2253" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="LEDSTR_30">
-<contactref element="U$67" pad="3"/>
-<contactref element="U$67" pad="2"/>
-<contactref element="U$67" pad="5"/>
-<wire x1="145" y1="55.8" x2="145" y2="58.2" width="0" layer="19" extent="1-1"/>
-<wire x1="145.95" y1="55.8" x2="145" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$124">
-<contactref element="R30" pad="1"/>
-<contactref element="U$67" pad="4"/>
-<wire x1="145.95" y1="58.2" x2="145.7747" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ZN44">
-<contactref element="U$66" pad="P$2"/>
-</signal>
-<signal name="GND30">
-<contactref element="U$68" pad="P$1"/>
-</signal>
-<signal name="N$126">
-<contactref element="U$69" pad="6"/>
-<contactref element="R31" pad="2"/>
-<wire x1="126.05" y1="58.2" x2="126.2253" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="LEDSTR_31">
-<contactref element="U$69" pad="3"/>
-<contactref element="U$69" pad="2"/>
-<contactref element="U$69" pad="5"/>
-<wire x1="127" y1="55.8" x2="127" y2="58.2" width="0" layer="19" extent="1-1"/>
-<wire x1="127.95" y1="55.8" x2="127" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$128">
-<contactref element="R31" pad="1"/>
-<contactref element="U$69" pad="4"/>
-<wire x1="127.95" y1="58.2" x2="127.7747" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ZN45">
-<contactref element="U$68" pad="P$2"/>
-</signal>
-<signal name="GND31">
-<contactref element="U$70" pad="P$1"/>
-</signal>
-<signal name="N$130">
-<contactref element="U$71" pad="6"/>
-<contactref element="R32" pad="2"/>
-<wire x1="108.05" y1="58.2" x2="108.2253" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="LEDSTR_32">
-<contactref element="U$71" pad="3"/>
-<contactref element="U$71" pad="2"/>
-<contactref element="U$71" pad="5"/>
-<wire x1="109" y1="55.8" x2="109.95" y2="55.8" width="0" layer="19" extent="1-1"/>
-<wire x1="109" y1="58.2" x2="109" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$132">
-<contactref element="R32" pad="1"/>
-<contactref element="U$71" pad="4"/>
-<wire x1="109.95" y1="58.2" x2="109.7747" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ZN46">
-<contactref element="U$70" pad="P$2"/>
-</signal>
-<signal name="GND32">
-<contactref element="U$72" pad="P$1"/>
-</signal>
-<signal name="N$134">
-<contactref element="U$73" pad="6"/>
-<contactref element="R33" pad="2"/>
-<wire x1="157.55" y1="58.2" x2="157.7253" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="LEDSTR_33">
-<contactref element="U$73" pad="3"/>
-<contactref element="U$73" pad="2"/>
-<contactref element="U$73" pad="5"/>
-<wire x1="158.5" y1="55.8" x2="158.5" y2="58.2" width="0" layer="19" extent="1-1"/>
-<wire x1="159.45" y1="55.8" x2="158.5" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$136">
-<contactref element="R33" pad="1"/>
-<contactref element="U$73" pad="4"/>
-<wire x1="159.45" y1="58.2" x2="159.2747" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ZN47">
-<contactref element="U$72" pad="P$2"/>
-</signal>
-<signal name="GND33">
-<contactref element="U$74" pad="P$1"/>
-</signal>
-<signal name="N$138">
-<contactref element="U$75" pad="6"/>
-<contactref element="R34" pad="2"/>
-<wire x1="166.55" y1="58.2" x2="166.7253" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="LEDSTR_34">
-<contactref element="U$75" pad="3"/>
-<contactref element="U$75" pad="2"/>
-<contactref element="U$75" pad="5"/>
-<wire x1="167.5" y1="55.8" x2="168.45" y2="55.8" width="0" layer="19" extent="1-1"/>
-<wire x1="167.5" y1="58.2" x2="167.5" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$140">
-<contactref element="R34" pad="1"/>
-<contactref element="U$75" pad="4"/>
-<wire x1="168.45" y1="58.2" x2="168.2747" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ZN48">
-<contactref element="U$74" pad="P$2"/>
-</signal>
-<signal name="GND34">
-<contactref element="U$76" pad="P$1"/>
-</signal>
-<signal name="N$142">
-<contactref element="U$77" pad="6"/>
-<contactref element="R35" pad="2"/>
-<wire x1="162.05" y1="58.2" x2="162.2253" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="LEDSTR_35">
-<contactref element="U$77" pad="3"/>
-<contactref element="U$77" pad="2"/>
-<contactref element="U$77" pad="5"/>
-<wire x1="163" y1="55.8" x2="163" y2="58.2" width="0" layer="19" extent="1-1"/>
-<wire x1="163.95" y1="55.8" x2="163" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$144">
-<contactref element="R35" pad="1"/>
-<contactref element="U$77" pad="4"/>
-<wire x1="163.95" y1="58.2" x2="163.7747" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ZN49">
-<contactref element="U$76" pad="P$2"/>
-</signal>
-<signal name="GND35">
-<contactref element="U$78" pad="P$1"/>
-</signal>
-<signal name="N$146">
-<contactref element="U$79" pad="6"/>
-<contactref element="R36" pad="2"/>
-<wire x1="171.05" y1="58.2" x2="171.2253" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="LEDSTR_36">
-<contactref element="U$79" pad="3"/>
-<contactref element="U$79" pad="2"/>
-<contactref element="U$79" pad="5"/>
-<wire x1="172" y1="55.8" x2="172.95" y2="55.8" width="0" layer="19" extent="1-1"/>
-<wire x1="172" y1="58.2" x2="172" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$148">
-<contactref element="R36" pad="1"/>
-<contactref element="U$79" pad="4"/>
-<wire x1="172.95" y1="58.2" x2="172.7747" y2="60" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ZN50">
-<contactref element="U$78" pad="P$2"/>
-</signal>
 <signal name="N$2">
 <contactref element="U$38" pad="P$3"/>
 <contactref element="U$2" pad="1"/>
-<wire x1="233.05" y1="83" x2="233.05" y2="86.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$4">
-<contactref element="U$4" pad="1"/>
-<contactref element="U$3" pad="P$3"/>
-<wire x1="228.55" y1="83" x2="228.55" y2="86.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$6">
-<contactref element="U$6" pad="1"/>
-<contactref element="U$5" pad="P$3"/>
-<wire x1="224.05" y1="83" x2="224.05" y2="86.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$8">
-<contactref element="U$7" pad="P$3"/>
-<contactref element="U$8" pad="1"/>
-<wire x1="219.55" y1="83" x2="219.55" y2="86.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$10">
-<contactref element="U$10" pad="1"/>
-<contactref element="U$9" pad="P$3"/>
-<wire x1="210.55" y1="83" x2="210.55" y2="86.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$12">
-<contactref element="U$12" pad="1"/>
-<contactref element="U$11" pad="P$3"/>
-<wire x1="206.05" y1="83" x2="206.05" y2="86.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$14">
-<contactref element="U$14" pad="1"/>
-<contactref element="U$13" pad="P$3"/>
-<wire x1="215.05" y1="83" x2="215.05" y2="86.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$16">
-<contactref element="U$16" pad="1"/>
-<contactref element="U$15" pad="P$3"/>
-<wire x1="201.55" y1="83" x2="201.55" y2="86.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$18">
-<contactref element="U$18" pad="1"/>
-<contactref element="U$17" pad="P$3"/>
-<wire x1="197.05" y1="83" x2="197.05" y2="86.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$20">
-<contactref element="U$20" pad="1"/>
-<contactref element="U$19" pad="P$3"/>
-<wire x1="192.55" y1="83" x2="192.55" y2="86.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$22">
-<contactref element="U$22" pad="1"/>
-<contactref element="U$21" pad="P$3"/>
-<wire x1="188.05" y1="83" x2="188.05" y2="86.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$24">
-<contactref element="U$24" pad="1"/>
-<contactref element="U$23" pad="P$3"/>
-<wire x1="183.55" y1="83" x2="183.55" y2="86.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$26">
-<contactref element="U$26" pad="1"/>
-<contactref element="U$25" pad="P$3"/>
-<wire x1="179.05" y1="83" x2="179.05" y2="86.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$28">
-<contactref element="U$28" pad="1"/>
-<contactref element="U$27" pad="P$3"/>
-<wire x1="174.55" y1="83" x2="174.55" y2="86.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$30">
-<contactref element="U$29" pad="P$3"/>
-<contactref element="U$30" pad="1"/>
-<wire x1="170.05" y1="86.8" x2="170.05" y2="83" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$32">
-<contactref element="U$32" pad="1"/>
-<contactref element="U$31" pad="P$3"/>
-<wire x1="165.55" y1="83" x2="165.55" y2="86.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$36">
-<contactref element="U$34" pad="1"/>
-<contactref element="U$33" pad="P$3"/>
-<wire x1="156.55" y1="83" x2="156.55" y2="86.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$38">
-<contactref element="U$40" pad="1"/>
-<contactref element="U$35" pad="P$3"/>
-<wire x1="161.05" y1="83" x2="161.05" y2="86.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$43">
-<contactref element="U$41" pad="P$3"/>
-<contactref element="U$45" pad="1"/>
-<wire x1="117.05" y1="52" x2="117.05" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$45">
-<contactref element="U$47" pad="1"/>
-<contactref element="U$46" pad="P$3"/>
-<wire x1="112.55" y1="52" x2="112.55" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$47">
-<contactref element="U$49" pad="1"/>
-<contactref element="U$48" pad="P$3"/>
-<wire x1="121.55" y1="52" x2="121.55" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$49">
-<contactref element="U$50" pad="P$3"/>
-<contactref element="U$51" pad="1"/>
-<wire x1="99.05" y1="52" x2="99.05" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$51">
-<contactref element="U$53" pad="1"/>
-<contactref element="U$52" pad="P$3"/>
-<wire x1="103.55" y1="52" x2="103.55" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$53">
-<contactref element="U$54" pad="P$3"/>
-<contactref element="U$55" pad="1"/>
-<wire x1="130.55" y1="52" x2="130.55" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$55">
-<contactref element="U$65" pad="1"/>
-<contactref element="U$64" pad="P$3"/>
-<wire x1="139.55" y1="52" x2="139.55" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$57">
-<contactref element="U$66" pad="P$3"/>
-<contactref element="U$67" pad="1"/>
-<wire x1="144.05" y1="52" x2="144.05" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$59">
-<contactref element="U$69" pad="1"/>
-<contactref element="U$68" pad="P$3"/>
-<wire x1="126.05" y1="52" x2="126.05" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$61">
-<contactref element="U$70" pad="P$3"/>
-<contactref element="U$71" pad="1"/>
-<wire x1="108.05" y1="52" x2="108.05" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$63">
-<contactref element="U$73" pad="1"/>
-<contactref element="U$72" pad="P$3"/>
-<wire x1="157.55" y1="52" x2="157.55" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$65">
-<contactref element="U$74" pad="P$3"/>
-<contactref element="U$75" pad="1"/>
-<wire x1="166.55" y1="52" x2="166.55" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$67">
-<contactref element="U$77" pad="1"/>
-<contactref element="U$76" pad="P$3"/>
-<wire x1="162.05" y1="52" x2="162.05" y2="55.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$69">
-<contactref element="U$78" pad="P$3"/>
-<contactref element="U$79" pad="1"/>
-<wire x1="171.05" y1="52" x2="171.05" y2="55.8" width="0" layer="19" extent="1-1"/>
+<wire x1="134.05" y1="30.8" x2="135.95" y2="29" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>

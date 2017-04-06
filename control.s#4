@@ -649,57 +649,6 @@
 <text x="-5.461" y="-8.8646" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&lt;Name</text>
 </package>
-<package name="RC0603N">
-<smd name="1" x="-0.7747" y="0" dx="0.762" dy="0.8128" layer="1"/>
-<smd name="2" x="0.7747" y="0" dx="0.762" dy="0.8128" layer="1"/>
-<wire x1="-0.0762" y1="-0.5334" x2="0.0762" y2="-0.5334" width="0.1524" layer="21"/>
-<wire x1="0.0762" y1="0.5334" x2="-0.0762" y2="0.5334" width="0.1524" layer="21"/>
-<wire x1="-0.4064" y1="-0.4064" x2="-0.4064" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="-0.4064" y1="0.4064" x2="-0.8128" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="-0.8128" y1="-0.4064" x2="-0.4064" y2="-0.4064" width="0.1524" layer="51"/>
-<wire x1="0.4064" y1="0.4064" x2="0.4064" y2="-0.4064" width="0.1524" layer="51"/>
-<wire x1="0.4064" y1="-0.4064" x2="0.8128" y2="-0.4064" width="0.1524" layer="51"/>
-<wire x1="0.7874" y1="0.4064" x2="0.4064" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="-0.4064" y1="-0.4064" x2="0.4064" y2="-0.4064" width="0.1524" layer="51"/>
-<wire x1="0.8128" y1="-0.4064" x2="0.8128" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="0.8128" y1="0.4064" x2="0.7874" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="0.4064" y1="0.4064" x2="-0.4064" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="-0.8128" y1="0.4064" x2="-0.8128" y2="-0.4064" width="0.1524" layer="51"/>
-</package>
-<package name="RC0603N-M">
-<smd name="1" x="-0.8763" y="0" dx="0.9652" dy="0.9144" layer="1"/>
-<smd name="2" x="0.8763" y="0" dx="0.9652" dy="0.9144" layer="1"/>
-<text x="-3.2766" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&lt;Name</text>
-<wire x1="-0.4064" y1="-0.4064" x2="-0.4064" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="-0.4064" y1="0.4064" x2="-0.8128" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="-0.8128" y1="-0.4064" x2="-0.4064" y2="-0.4064" width="0.1524" layer="51"/>
-<wire x1="0.381" y1="0.4064" x2="0.4064" y2="-0.4064" width="0.1524" layer="51"/>
-<wire x1="0.4064" y1="-0.4064" x2="0.8128" y2="-0.4064" width="0.1524" layer="51"/>
-<wire x1="0.8128" y1="-0.4064" x2="0.7874" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="0.7874" y1="0.4064" x2="0.381" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="-0.4064" y1="-0.4064" x2="0.4064" y2="-0.4064" width="0.1524" layer="51"/>
-<wire x1="0.8128" y1="-0.4064" x2="0.8128" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="0.8128" y1="0.4064" x2="-0.4064" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="-0.8128" y1="0.4064" x2="-0.8128" y2="-0.4064" width="0.1524" layer="51"/>
-</package>
-<package name="RC0603N-L">
-<smd name="1" x="-0.6731" y="0" dx="0.5588" dy="0.8128" layer="1"/>
-<smd name="2" x="0.6731" y="0" dx="0.5588" dy="0.8128" layer="1"/>
-<wire x1="-0.0762" y1="-0.5334" x2="0.0762" y2="-0.5334" width="0.1524" layer="21"/>
-<wire x1="0.0762" y1="0.5334" x2="-0.0762" y2="0.5334" width="0.1524" layer="21"/>
-<text x="-3.2766" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&lt;Name</text>
-<wire x1="-0.4064" y1="-0.4064" x2="-0.4064" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="-0.4064" y1="0.4064" x2="-0.8128" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="-0.8128" y1="-0.4064" x2="-0.4064" y2="-0.4064" width="0.1524" layer="51"/>
-<wire x1="0.381" y1="0.4064" x2="0.4064" y2="-0.4064" width="0.1524" layer="51"/>
-<wire x1="0.4064" y1="-0.4064" x2="0.8128" y2="-0.4064" width="0.1524" layer="51"/>
-<wire x1="0.8128" y1="-0.4064" x2="0.7874" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="0.7874" y1="0.4064" x2="0.381" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="-0.4064" y1="-0.4064" x2="0.4064" y2="-0.4064" width="0.1524" layer="51"/>
-<wire x1="0.8128" y1="-0.4064" x2="0.8128" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="0.8128" y1="0.4064" x2="-0.4064" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="-0.8128" y1="0.4064" x2="-0.8128" y2="-0.4064" width="0.1524" layer="51"/>
-</package>
 <package name="8-S-POWERPAD">
 <wire x1="-2" y1="2.5" x2="-2" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="-2" y1="-2.5" x2="2" y2="-2.5" width="0.127" layer="21"/>
@@ -1317,17 +1266,6 @@
 <text x="28.2956" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&lt;Name</text>
 <text x="27.6606" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&lt;Value</text>
 </symbol>
-<symbol name="RES">
-<pin name="22" x="0" y="0" visible="pin" length="short" direction="pas" swaplevel="1"/>
-<pin name="11" x="12.7" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<wire x1="3.175" y1="1.27" x2="4.445" y2="-1.27" width="0.2032" layer="94"/>
-<wire x1="4.445" y1="-1.27" x2="5.715" y2="1.27" width="0.2032" layer="94"/>
-<wire x1="5.715" y1="1.27" x2="6.985" y2="-1.27" width="0.2032" layer="94"/>
-<wire x1="6.985" y1="-1.27" x2="8.255" y2="1.27" width="0.2032" layer="94"/>
-<wire x1="8.255" y1="1.27" x2="9.525" y2="-1.27" width="0.2032" layer="94"/>
-<wire x1="2.54" y1="0" x2="3.175" y2="1.27" width="0.2032" layer="94"/>
-<wire x1="9.525" y1="-1.27" x2="10.16" y2="0" width="0.2032" layer="94"/>
-</symbol>
 <symbol name="TPS54560DDAR">
 <wire x1="-7.62" y1="-5.08" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
 <pin name="RT/CLK" x="-12.7" y="0" length="middle"/>
@@ -1616,115 +1554,6 @@
 <technology name="">
 <attribute name="MANUFACTURER_PART_NUMBER" value="LM2576HVSX5.0NOPB" constant="no"/>
 <attribute name="VENDOR" value="National Semiconductor" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="RC0603FR-0710RL" prefix="R">
-<gates>
-<gate name="A" symbol="RES" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="RC0603N">
-<connects>
-<connect gate="A" pin="11" pad="1"/>
-<connect gate="A" pin="22" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CASE" value="0603 1608 metric" constant="no"/>
-<attribute name="CATEGORY" value="" constant="no"/>
-<attribute name="COMPOSITION" value="Thick Film" constant="no"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" constant="no"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" constant="no"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" constant="no"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" constant="no"/>
-<attribute name="FEATURES" value="" constant="no"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" constant="no"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" constant="no"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" constant="no"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" constant="no"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" constant="no"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" constant="no"/>
-<attribute name="POWERWATTS" value="0.1W 110W" constant="no"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" constant="no"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" constant="no"/>
-<attribute name="RESISTANCEOHMS" value="10" constant="no"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" constant="no"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" constant="no"/>
-<attribute name="TOLERANCE" value="1%" constant="no"/>
-<attribute name="VENDOR" value="Yageo" constant="no"/>
-<attribute name="VOLTAGEWORKING" value="50V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="RC0603N-M" package="RC0603N-M">
-<connects>
-<connect gate="A" pin="11" pad="1"/>
-<connect gate="A" pin="22" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CASE" value="0603 1608 metric" constant="no"/>
-<attribute name="CATEGORY" value="" constant="no"/>
-<attribute name="COMPOSITION" value="Thick Film" constant="no"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" constant="no"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" constant="no"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" constant="no"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" constant="no"/>
-<attribute name="FEATURES" value="" constant="no"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" constant="no"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" constant="no"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" constant="no"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" constant="no"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" constant="no"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" constant="no"/>
-<attribute name="POWERWATTS" value="0.1W 110W" constant="no"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" constant="no"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" constant="no"/>
-<attribute name="RESISTANCEOHMS" value="10" constant="no"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" constant="no"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" constant="no"/>
-<attribute name="TOLERANCE" value="1%" constant="no"/>
-<attribute name="VENDOR" value="Yageo" constant="no"/>
-<attribute name="VOLTAGEWORKING" value="50V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="RC0603N-L" package="RC0603N-L">
-<connects>
-<connect gate="A" pin="11" pad="1"/>
-<connect gate="A" pin="22" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CASE" value="0603 1608 metric" constant="no"/>
-<attribute name="CATEGORY" value="" constant="no"/>
-<attribute name="COMPOSITION" value="Thick Film" constant="no"/>
-<attribute name="COPYRIGHT" value="Copyright C 2015 Accelerated Designs. All rights reserved" constant="no"/>
-<attribute name="DATASHEET" value="httpwww.yageo.comdocumentsrecentPYuRC0603_51_RoHS_L_4.pdf" constant="no"/>
-<attribute name="DESCRIPTION" value="RES 10.0 OHM 110W 1% 0603 SMD" constant="no"/>
-<attribute name="DIGIKEYPARTNUMBER" value="31110.0HRTRND" constant="no"/>
-<attribute name="FEATURES" value="" constant="no"/>
-<attribute name="HEIGHT" value="0.022&quot; 0.55mm" constant="no"/>
-<attribute name="LEADSTYLE" value="Surface Mount SMD  SMT" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR0710RL" constant="no"/>
-<attribute name="NEWARKPARTNUMBER" value="68R0050" constant="no"/>
-<attribute name="NUMBEROFTERMINATIONS" value="2" constant="no"/>
-<attribute name="PACKAGECASE" value="0603 1608 Metric" constant="no"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel TR" constant="no"/>
-<attribute name="POWERWATTS" value="0.1W 110W" constant="no"/>
-<attribute name="QUANTITY_AVAILABLE" value="570000" constant="no"/>
-<attribute name="RESISTANCEINOHMS" value="10.0" constant="no"/>
-<attribute name="RESISTANCEOHMS" value="10" constant="no"/>
-<attribute name="SIZEDIMENSION" value="0.063&quot; L x 0.031&quot; W 1.60mm x 0.80mm" constant="no"/>
-<attribute name="TEMPERATURECOEFFICIENT" value="200ppm°C" constant="no"/>
-<attribute name="TOLERANCE" value="1%" constant="no"/>
-<attribute name="VENDOR" value="Yageo" constant="no"/>
-<attribute name="VOLTAGEWORKING" value="50V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2796,7 +2625,6 @@ USI</description>
 <part name="U$38" library="Smile_Shade" deviceset="2N7002P" device=""/>
 <part name="SL3" library="con-amp-quick" deviceset="M09" device=""/>
 <part name="U$43" library="Smile_Shade" deviceset="LM2576HVSX-5.0/NOPB" device=""/>
-<part name="R8" library="Smile_Shade" deviceset="RC0603FR-0710RL" device=""/>
 <part name="SL4" library="con-amp-quick" deviceset="M03" device=""/>
 <part name="U$42" library="Smile_Shade" deviceset="TPS54560DDAR" device=""/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
@@ -2818,7 +2646,6 @@ USI</description>
 <instance part="U$44" gate="G$1" x="-53.34" y="58.42" rot="R90"/>
 <instance part="U$39" gate="G$1" x="205.74" y="81.28" rot="R270"/>
 <instance part="U$38" gate="G$1" x="-2.54" y="165.1"/>
-<instance part="R8" gate="A" x="15.24" y="180.34"/>
 <instance part="U$2" gate="A" x="-12.7" y="175.26"/>
 <instance part="U$80" gate="G$1" x="-53.34" y="10.16" rot="R90"/>
 </instances>
@@ -2864,7 +2691,6 @@ USI</description>
 <wire x1="0" y1="157.48" x2="0" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R8" gate="A" pin="11"/>
 <wire x1="27.94" y1="180.34" x2="27.94" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="A" pin="GND"/>
 <wire x1="27.94" y1="175.26" x2="15.24" y2="175.26" width="0.1524" layer="91"/>
@@ -2971,12 +2797,6 @@ USI</description>
 <segment>
 <wire x1="-45.72" y1="101.6" x2="-48.26" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="U$44" gate="G$1" pin="P$17"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="U$2" gate="A" pin="REXT"/>
-<pinref part="R8" gate="A" pin="22"/>
 </segment>
 </net>
 <net name="ZN0" class="0">
